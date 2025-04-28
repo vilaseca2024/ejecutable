@@ -1,305 +1,314 @@
-A.  Título: Identificación de la declaración  =>  Valor: 
-A1.  Título: N° de declaración  =>  Valor: DS-2025-211-15624
-A2.  Título: Fecha de aceptación  =>  Valor: 21/04/2025 18:12
-A3.  Título: N° de referencia  =>  Valor: 0030EXP-25
-A4.  Título: País de trámite  =>  Valor: BOLIVIA
-A5.  Título: Aduana de despacho  =>  Valor: AEROPUERTO EL ALTO
-A6.  Título: Destino/Régimen aduanero  =>  Valor: 10
-A7.  Título: Modalidad del régimen  =>  Valor: 1000
-A8.  Título: Plazo  =>  Valor: 0
-A9.  Título: Tipo de embarque  =>  Valor: EMBARQUE TOTAL
-A10.  Título: N° de carpeta  =>  Valor: 
-A11.  Título: Recibo de pago  =>  Valor: 
-B.  Título: Operadores  =>  Valor: Tipo doc. N°de Documento Nombre/Razón social Domicilio
-B1.  Título: Exportador: NIT 281882026 VILASECA  =>  Valor: 
-H.  Título: LOGISTICA  =>  Valor: 
-L.  Título: OBRAJES, 6, 350, LA PAZ, BOLIVIA, LA PAZ, 2118768, 2202068,  =>  Valor: jcarlos.vilaseca@icloud.com
-B2.  Título: Destinatario:   CISCO SYSTEMS C/O RYDER INTEGRATED LOGISTICS HENRIETTA CREEK ROAD, 724, ROANOKE - TEXAS, ESTADOS UNIDOS  =>  Valor: 
-B3.  Título: Consignatario:   CISCO SYSTEMS C/O RYDER INTEGRATED LOGISTICS HENRIETTA CREEK ROAD, 724, ROANOKE - TEXAS, ESTADOS UNIDOS  =>  Valor: 
-B4.  Título: Declarante: NIT 1000899025 (OEA) VILASECA  =>  Valor: 
-A.  Título: AGENCIA DESPACHANTE DE ADUANA CENTRAL, MERCADO, 1328, LA PAZ, BOLIVIA, LA PAZ, 2202077, 2201860,  =>  Valor: jcarlosvilaseca@agencia- vilaseca.com
-C.  Título: Lugares  =>  Valor: 
-D.  Título: Transporte  =>  Valor: 
-C1.  Título: Lugar de embarque  =>  Valor: LA PAZ
-C2.  Título: Aduana de salida  =>  Valor: AEROPUERTO EL ALTO
-C3.  Título: País de destino final  =>  Valor: ESTADOS UNIDOS
-D1.  Título: Modalidad de transporte hasta la frontera  =>  Valor: TRANSPORTE AÉREO
-D2.  Título: Modalidad de transporte desde la frontera  =>  Valor: TRANSPORTE AÉREO
-C4.  Título: País de tránsito  =>  Valor: 
-C5.  Título: Lugar de desembarque  =>  Valor: MIAMI -FLORIDA
-D3.  Título: Empresa de transporte hasta la frontera  =>  Valor: 
-E.  Título: Información y valores totales de la transacción  =>  Valor: 
-E1.  Título: Condición  =>  Valor: de entrega FCA
-E2.  Título: Lugar de entrega  =>  Valor: LA PAZ - BOLIVIA
-E3.  Título: Naturaleza de la transacción  =>  Valor: REPARACIÓN Y MANTENIMIENTO SIN PAGO
-E4.  Título: Moneda de  =>  Valor: transacción USD
-E5.  Título: Valor total de  =>  Valor: transacción 2832.29
-E6.  Título: Tipo de cambio  =>  Valor: (Mon.transacción- USD)
-E7.  Título: Forma de  =>  Valor: pago SIN PAGO
-E8.  Título: Medio de pago  =>  Valor: OTRO Valores y Costos
-E15.  Título: Liquidación de Impuestos, recargos, tasas, sanciones e intereses  =>  Valor: 
-E9.  Título: Valor FOB total (USD)  =>  Valor: 2832.29
-E10.  Título: Tipo cambio(USD-Bs)  =>  Valor: 6.96
-E11.  Título: Valor FOB total (Bs)  =>  Valor: 19713Tipo Descripción Monto (Bs) Total a pagar/garantizar
-E12.  Título: Costo flete total (USD)  =>  Valor: 725.00
-E13.  Título: Costo flete interno (USD)  =>  Valor: 
-E14.  Título: Costo total seguro (USD)  =>  Valor: 
-F.  Título: Totales para control  =>  Valor: 
-F1.  Título: Total páginas  =>  Valor: 4
-F2.  Título: Total ítems  =>  Valor: 6
-F3.  Título: Total bultos  =>  Valor: 1
-F4.  Título: Total peso bruto(Kg)  =>  Valor: 25
-F5.  Título: Total peso neto (kg)  =>  Valor: 19.7
-G.  Título: Observaciones generales  =>  Valor: NO EXISTE UNA TRANSACCIÓN COMERCIAL ENTRE VILASECA FH LOGÍSTICA
-L.  Título: COMO EXPORTADOR DE LOS BIENES EN BOLIVIA Y CISCO SYSTEMS C/O RYDER INTEGRATED LOGISTICS,  =>  Valor: LOS BIENES EXPORTADOS SON NUEVOS - DAÑADOS Y SE EXPORTAN PARA SER REACONDICIONADOS, POR LO QUE NO EXISTE UN PAG
-H.  Título: Identificación de la mercancía por ítem  =>  Valor: 
-H1.  Título: N°  =>  Valor: Ítem 1
-H2.  Título: Reg.  =>  Valor: Cod. Nal. 000
-H3.  Título: Subpartida  =>  Valor: arancelaria 8517710000
-H4.  Título: Cod.  =>  Valor: Compl. 0000H5 Cod. Supl. 0000Descripción arancelaria - - Antenas y reflectores de antena de cualquier tipo; partes identificables para ser utilizadas con dichos artículos
-H6.  Título: Unidad física  =>  Valor: u
-H7.  Título: Cantidad  =>  Valor: física 1
-H8.  Título: Descripción comercial de la mercancía  =>  Valor: ANTENA, 2.4GHZ 2 DBI/5GHZ 4 DBI DIPOLE AN
-T.  Título: , WHITE, RP-TNC, SELF ID, PRODUCT NUM: AIR-ANT2524DW-RS=, ECCN: NOCLASS, EXPORT  =>  Valor: LICENSE: NLR
-H9.  Título: Unidad  =>  Valor: comercial NMB
-H10.  Título: Cantidad  =>  Valor: comercial 1
-H11.  Título: Precio  =>  Valor: unitario 7.24
-H12.  Título: País de origen  =>  Valor: MALASIA
-H13.  Título: Departamento  =>  Valor: 
-H14.  Título: Acuerdo comercial  =>  Valor: 
-H15.  Título: Embalaje  =>  Valor: CT
-H16.  Título: Cant. bultos  =>  Valor: 0.02
-H17.  Título: Peso bruto (Kg)  =>  Valor: 0.38
-H18.  Título: Peso neto (Kg)  =>  Valor: 0.3H19 . Marcas
-H20.  Título: Estado  =>  Valor: NUEVA
-H21.  Título: Resolución  =>  Valor: RITEX
-H22.  Título: Código  =>  Valor: RITEX
-H23.  Título: Cantidad  =>  Valor: RITEX
-H24.  Título: N° Declaración  =>  Valor: precedente
-H25.  Título: Mod. reg.  =>  Valor: Precedente
-H26.  Título: Ítem  =>  Valor: precedente
-I.  Título: Información y valores de transacción por ítem.  =>  Valor: 
-I1.  Título: Valor FOB del item (USD)  =>  Valor: 7.24
-I2.  Título: Valor transacción del item  =>  Valor: 7.24
-I3.  Título: Costo flete interno (USD)  =>  Valor: 0
-I4.  Título: Costo seguro (USD)  =>  Valor: 0
-J.  Título: Observaciones del item  =>  Valor: 
-I5.  Título: Liquidación de los impuestos, recargos, tasas, sanciones e intereses  =>  Valor: VIENE DECLARADO EN LA DUI N° DI-2023-211-2439282 ITEM 1 Tipo Descripción Base imponible (Bs) Alícuota % Monto (Bs) MP Total a pagar/garantizar
-L.  Título: Actuaciones Código de seguridad  =>  Valor: 
-L1.  Título: Declarante  =>  Valor: VILASECA
-A.  Título: AGENCIA DESPACHANTE DE  =>  Valor: ADUANA
-L2.  Título: Actuación aduanera  =>  Valor: 
-L3.  Título: Banco  =>  Valor:  1000329
-H.  Título: Identificación de la mercancía por ítem  =>  Valor: 
-H1.  Título: N°  =>  Valor: Item 2
-H2.  Título: Reg.  =>  Valor: Cod. Nal. 000
-H3.  Título: Subpartida arancelaria  =>  Valor: 8517629090
-H4.  Título: Cod.  =>  Valor: Compl. 0000H5 Cod. Supl. 0000Descripción arancelaria - - - - Los demás
-H6.  Título: Unidad  =>  Valor: física u
-H7.  Título: Cantidad  =>  Valor: física 2
-H8.  Título: Descripcion comercial de la mercancía  =>  Valor: APARATOS DE ENRUTAMIENTO, ^^CISCO 881 ETH SEC ROUTER WITH 802.11N FCC COMPLIANT, PRODUCT NUM: C881W-A-K9, ECCN: NOCLASS, EXPORT LICENSE: NLR
-H9.  Título: Unidad  =>  Valor: comercial NMB
-H10.  Título: Cantidad  =>  Valor: comercial 2
-H11.  Título: Precio  =>  Valor: unitario 163.28
-H12.  Título: País de Origen  =>  Valor: ESTADOS UNIDOS
-H13.  Título: Departamento  =>  Valor: 
-H14.  Título: Acuerdo comercial  =>  Valor: 
-H15.  Título: Embalaje  =>  Valor: CT
-H16.  Título: Cant. bultos  =>  Valor: 0.32
-H17.  Título: Peso bruto (Kg)  =>  Valor: 8
-H18.  Título: Peso neto (Kg)  =>  Valor: 6.30H19 . Marcas
-H20.  Título: Estado  =>  Valor: NUEVA
-H21.  Título: Resolución  =>  Valor: RITEX
-H22.  Título: Código  =>  Valor: RITEX
-H23.  Título: Cantidad  =>  Valor: RITEX
-H24.  Título: N° Declaración  =>  Valor: precedente
-H25.  Título: Mod. reg.  =>  Valor: Precedente
-H26.  Título: Item  =>  Valor: precedente
-I.  Título: Información y valores de transacción por ítem  =>  Valor: 
-I1.  Título: Valor FOB item (USD)  =>  Valor: 326.56
-I2.  Título: Valor transacción del item  =>  Valor: 326.56
-I3.  Título: Costo flete interno (USD)  =>  Valor: 0
-I4.  Título: Costo seguro (USD)  =>  Valor: 0
-J.  Título: Observaciones del item  =>  Valor: 
-I5.  Título: Liquidacion de los derechos, impuestos, recargos, tasas, sanciones e intereses  =>  Valor: VIENE DECLARADO EN LA DUIS N° 2016/211/C-29545 ITEM 1 Y 2017/211/C-8084 ITEM 2 Tipo Descripción Base imponible (Bs) Alícuota % Monto (Bs) MP Total a pagar/garantizar
-H.  Título: Identificación de la mercancía por ítem  =>  Valor: 
-H1.  Título: N°  =>  Valor: Item 3
-H2.  Título: Reg.  =>  Valor: Cod. Nal. 000
-H3.  Título: Subpartida arancelaria  =>  Valor: 8517629090
-H4.  Título: Cod.  =>  Valor: Compl. 0000H5 Cod. Supl. 0000Descripción arancelaria - - - - Los demás
-H6.  Título: Unidad  =>  Valor: física u
-H7.  Título: Cantidad  =>  Valor: física 1
-H8.  Título: Descripcion comercial de la mercancía  =>  Valor: CONMUTADOR DE RED, ^CISCO SG250-50 50-PORT GIGABIT SMART SWITCH, PRODUCT NUM: SG250-50-K9-NA, ECCN: NOCLASS, EXPORT LICENSE: NLR
-H9.  Título: Unidad  =>  Valor: comercial NMB
-H10.  Título: Cantidad  =>  Valor: comercial 1
-H11.  Título: Precio  =>  Valor: unitario 225.63
-H12.  Título: País de Origen  =>  Valor: CHINA
-H13.  Título: Departamento  =>  Valor: 
-H14.  Título: Acuerdo comercial  =>  Valor: 
-H15.  Título: Embalaje  =>  Valor: CT
-H16.  Título: Cant. bultos  =>  Valor: 0.2
-H17.  Título: Peso bruto (Kg)  =>  Valor: 4.95
-H18.  Título: Peso neto (Kg)  =>  Valor: 3.9H19 . Marcas
-H20.  Título: Estado  =>  Valor: NUEVA
-H21.  Título: Resolución  =>  Valor: RITEX
-H22.  Título: Código  =>  Valor: RITEX
-H23.  Título: Cantidad  =>  Valor: RITEX
-H24.  Título: N° Declaración  =>  Valor: precedente
-H25.  Título: Mod. reg.  =>  Valor: Precedente
-H26.  Título: Item  =>  Valor: precedente
-I.  Título: Información y valores de transacción por ítem  =>  Valor: 
-I1.  Título: Valor FOB item (USD)  =>  Valor: 225.63
-I2.  Título: Valor transacción del item  =>  Valor: 225.63
-I3.  Título: Costo flete interno (USD)  =>  Valor: 0
-I4.  Título: Costo seguro (USD)  =>  Valor: 0
-J.  Título: Observaciones del item  =>  Valor: 
-I5.  Título: Liquidacion de los derechos, impuestos, recargos, tasas, sanciones e intereses  =>  Valor: VIENE DECLARADO EN LA DUI N° 2019/211/C-47100 ITEM 7 Tipo Descripción Base imponible (Bs) Alícuota % Monto (Bs) MP Total a pagar/garantizar
-H.  Título: Identificación de la mercancía por ítem  =>  Valor: 
-H1.  Título: N°  =>  Valor: Item 4
-H2.  Título: Reg.  =>  Valor: Cod. Nal. 000
-H3.  Título: Subpartida arancelaria  =>  Valor: 8523510000
-H4.  Título: Cod.  =>  Valor: Compl. 0000H5 Cod. Supl. 0000Descripción arancelaria - - Dispositivos de almacenamiento permanente de datos a base de semiconductores
-H6.  Título: Unidad  =>  Valor: física u
-H7.  Título: Cantidad  =>  Valor: física 1
-H8.  Título: Descripcion comercial de la mercancía  =>  Valor: DISPOSITIVO DE ALMACENAMIENTO, ^7.6TB 2.5 INCH ENTERPRISE VALUE 6G SATA SSD, PRODUCT NUM: UCS-SD76T61X-EV=, ECCN: NOCLASS, EXPORT LICENSE: NLR
-H9.  Título: Unidad  =>  Valor: comercial NMB
-H10.  Título: Cantidad  =>  Valor: comercial 1
-H11.  Título: Precio  =>  Valor: unitario 1443.18
-H12.  Título: País de Origen  =>  Valor: COREA DEL SUR, REPÚBLICA DE
-H13.  Título: Departamento  =>  Valor: 
-H14.  Título: Acuerdo comercial  =>  Valor: 
-H15.  Título: Embalaje  =>  Valor: CT
-H16.  Título: Cant. bultos  =>  Valor: 0.01
-H17.  Título: Peso bruto (Kg)  =>  Valor: 0.38
-H18.  Título: Peso neto (Kg)  =>  Valor: 0.30H19 . Marcas
-H20.  Título: Estado  =>  Valor: NUEVA
-H21.  Título: Resolución  =>  Valor: RITEX
-H22.  Título: Código  =>  Valor: RITEX
-H23.  Título: Cantidad  =>  Valor: RITEX
-H24.  Título: N° Declaración  =>  Valor: precedente
-H25.  Título: Mod. reg.  =>  Valor: Precedente
-H26.  Título: Item  =>  Valor: precedente
-I.  Título: Información y valores de transacción por ítem  =>  Valor: 
-I1.  Título: Valor FOB item (USD)  =>  Valor: 1443.18
-I2.  Título: Valor transacción del item  =>  Valor: 1443.18
-I3.  Título: Costo flete interno (USD)  =>  Valor: 0
-I4.  Título: Costo seguro (USD)  =>  Valor: 0
-J.  Título: Observaciones del item  =>  Valor: 
-I5.  Título: Liquidacion de los derechos, impuestos, recargos, tasas, sanciones e intereses  =>  Valor: VIENE DECLARADO EN LA DUI N° 2020/211/C-36439 ITEM 7 Tipo Descripción Base imponible (Bs) Alícuota % Monto (Bs) MP Total a pagar/garantizar  1000329
-H.  Título: Identificación de la mercancía por ítem  =>  Valor: 
-H1.  Título: N°  =>  Valor: Item 5
-H2.  Título: Reg.  =>  Valor: Cod. Nal. 000
-H3.  Título: Subpartida arancelaria  =>  Valor: 8523510000
-H4.  Título: Cod.  =>  Valor: Compl. 0000H5 Cod. Supl. 0000Descripción arancelaria - - Dispositivos de almacenamiento permanente de datos a base de semiconductores
-H6.  Título: Unidad  =>  Valor: física u
-H7.  Título: Cantidad  =>  Valor: física 2
-H8.  Título: Descripcion comercial de la mercancía  =>  Valor: DISPOSITIVO DE ALMACENAMIENTO, ^UCS C3X60 SATA SSD 120GB ENTERPRISE VALUE, PRODUCT NUM: UCSC-C3X60-12SSD=, ECCN: NOCLASS, EXPORT LICENSE: NLR
-H9.  Título: Unidad  =>  Valor: comercial NMB
-H10.  Título: Cantidad  =>  Valor: comercial 2
-H11.  Título: Precio  =>  Valor: unitario 159.60
-H12.  Título: País de Origen  =>  Valor: TAIWÁN, PROVINCIA DE CHINA
-H13.  Título: Departamento  =>  Valor: 
-H14.  Título: Acuerdo comercial  =>  Valor: 
-H15.  Título: Embalaje  =>  Valor: CT
-H16.  Título: Cant. bultos  =>  Valor: 0.03
-H17.  Título: Peso bruto (Kg)  =>  Valor: 0.76
-H18.  Título: Peso neto (Kg)  =>  Valor: 0.6H19 . Marcas
-H20.  Título: Estado  =>  Valor: NUEVA
-H21.  Título: Resolución  =>  Valor: RITEX
-H22.  Título: Código  =>  Valor: RITEX
-H23.  Título: Cantidad  =>  Valor: RITEX
-H24.  Título: N° Declaración  =>  Valor: precedente
-H25.  Título: Mod. reg.  =>  Valor: Precedente
-H26.  Título: Item  =>  Valor: precedente
-I.  Título: Información y valores de transacción por ítem  =>  Valor: 
-I1.  Título: Valor FOB item (USD)  =>  Valor: 319.20
-I2.  Título: Valor transacción del item  =>  Valor: 319.20
-I3.  Título: Costo flete interno (USD)  =>  Valor: 0
-I4.  Título: Costo seguro (USD)  =>  Valor: 0
-J.  Título: Observaciones del item  =>  Valor: 
-I5.  Título: Liquidacion de los derechos, impuestos, recargos, tasas, sanciones e intereses  =>  Valor: VIENE DECLARADO EN LA DUIS N° 2015/211/C-44970 ITEM 2 Y 2015/211/C-35135 ITEM 20 Tipo Descripción Base imponible (Bs) Alícuota % Monto (Bs) MP Total a pagar/garantizar
-H.  Título: Identificación de la mercancía por ítem  =>  Valor: 
-H1.  Título: N°  =>  Valor: Item 6
-H2.  Título: Reg.  =>  Valor: Cod. Nal. 000
-H3.  Título: Subpartida arancelaria  =>  Valor: 8517621090
-H4.  Título: Cod.  =>  Valor: Compl. 0000H5 Cod. Supl. 0000Descripción arancelaria - - - - Los demás
-H6.  Título: Unidad  =>  Valor: física u
-H7.  Título: Cantidad  =>  Valor: física 1
-H8.  Título: Descripcion comercial de la mercancía  =>  Valor: CONMUTADOR PARA RED, ^CISCO CATALYST 3650 48 PORT FULL POE 4X1G UPLINK LAN BASE, PRODUCT NUM: WS-C3650-48FS-L, ECCN: 5.
-A.  Título: 2,  =>  Valor: EXPORT LICENSE: NLR
-H9.  Título: Unidad  =>  Valor: comercial NMB
-H10.  Título: Cantidad  =>  Valor: comercial 1
-H11.  Título: Precio  =>  Valor: unitario 510.48
-H12.  Título: País de Origen  =>  Valor: CHINA
-H13.  Título: Departamento  =>  Valor: 
-H14.  Título: Acuerdo comercial  =>  Valor: 
-H15.  Título: Embalaje  =>  Valor: CT
-H16.  Título: Cant. bultos  =>  Valor: 0.42
-H17.  Título: Peso bruto (Kg)  =>  Valor: 10.53
-H18.  Título: Peso neto (Kg)  =>  Valor: 8.3H19 . Marcas
-H20.  Título: Estado  =>  Valor: NUEVA
-H21.  Título: Resolución  =>  Valor: RITEX
-H22.  Título: Código  =>  Valor: RITEX
-H23.  Título: Cantidad  =>  Valor: RITEX
-H24.  Título: N° Declaración  =>  Valor: precedente
-H25.  Título: Mod. reg.  =>  Valor: Precedente
-H26.  Título: Item  =>  Valor: precedente
-I.  Título: Información y valores de transacción por ítem  =>  Valor: 
-I1.  Título: Valor FOB item (USD)  =>  Valor: 510.48
-I2.  Título: Valor transacción del item  =>  Valor: 510.48
-I3.  Título: Costo flete interno (USD)  =>  Valor: 0
-I4.  Título: Costo seguro (USD)  =>  Valor: 0
-J.  Título: Observaciones del item  =>  Valor: 
-I5.  Título: Liquidacion de los derechos, impuestos, recargos, tasas, sanciones e intereses  =>  Valor: VIENE DECLARADO EN LA DUI N° 2016/211/C-1702 ITEM 16 Tipo Descripción Base imponible (Bs) Alícuota % Monto (Bs) MP Total a pagar/garantizar
-H.  Título: Identificación de la mercancía por ítem  =>  Valor: 
-H1.  Título: N°  =>  Valor: Item
-H2.  Título: Reg.  =>  Valor: Cod. Nal.
-H3.  Título: Subpartida arancelaria  =>  Valor: 
-H4.  Título: Cod.  =>  Valor: Compl.H5 Cod. Supl.Descripción arancelaria
-H6.  Título: Unidad  =>  Valor: física
-H7.  Título: Cantidad  =>  Valor: física
-H8.  Título: Descripcion comercial de la mercancía  =>  Valor: 
-H9.  Título: Unidad  =>  Valor: comercial
-H10.  Título: Cantidad  =>  Valor: comercial
-H11.  Título: Precio  =>  Valor: unitario
-H12.  Título: País de origen  =>  Valor: 
-H13.  Título: Departamento  =>  Valor: 
-H14.  Título: Acuerdo comercial  =>  Valor: 
-H15.  Título: Embalaje  =>  Valor: 
-H16.  Título: Cant. bultos  =>  Valor: 
-H17.  Título: Peso bruto (Kg)  =>  Valor: 
-H18.  Título: Peso neto (Kg) H19 . Marcas  =>  Valor: 
-H20.  Título: Estado  =>  Valor: 
-H21.  Título: Resolución  =>  Valor: RITEX
-H22.  Título: Código  =>  Valor: RITEX
-H23.  Título: Cantidad  =>  Valor: RITEX
-H24.  Título: N° Declaración  =>  Valor: precedente
-H25.  Título: Mod. reg.  =>  Valor: Precedente
-H26.  Título: Item  =>  Valor: precedente
-I.  Título: Información y valores de transacción por ítem  =>  Valor: 
-I1.  Título: Valor FOB item (USD)  =>  Valor: 
-I2.  Título: Valor transacción del item  =>  Valor: 
-I3.  Título: Costo flete  =>  Valor: interno (USD)
-I4.  Título: Costo seguro  =>  Valor: (USD)
-J.  Título: Observaciones del item  =>  Valor: 
-I5.  Título: Liquidacion de los derechos, impuestos, recargos, tasas, sanciones e intereses  =>  Valor: Tipo Descripción Base imponible (Bs) Alícuota % Monto (Bs) MP Total a pagar/garantizar  1000329
-K.  Título: Documentos de la Declaración  =>  Valor: 
-K1.  Título: Documentos soporte  =>  Valor: N° Tipo documento N° Documento Emisor Fecha de emisiónFecha de vencimientoÍtems asociados 1LISTA DE EMPAQUE PL165710843 VILASECA
-H.  Título: LOGISTICA  =>  Valor: 
-L.  Título: 16/04/2025  1-2-3-4-5-6  =>  Valor: 2FACTURA COMERCIAL 165710843 VILASECA
-H.  Título: LOGISTICA  =>  Valor: 
-L.  Título: 16/04/2025  1-2-3-4-5-6  =>  Valor: 3GUÍA AÉREA 045-10346243 LATAM CARGO 17/04/2025  1-2-3-4-5-6 4GUÍA AÉREA 59136864 ONE WORLD LOGISTICS
-L.  Título: 17/04/2025  1-2-3-4-5-6  =>  Valor: 5DIM - DECLARACIÓN DE MERCANCÍAS DE IMPORTACIÓNDI-2023-211-2439282 VILASECA
-A.  Título: AGENCIA DESPACHANTE DE ADUANA 08/12/2023  1  =>  Valor: 6DECLARACIÓN ÚNICA DE IMPORTACIÓN (DUI) 2016/211/C-29545 VILASECA SRL AGENCIA DES
-P.  Título: DE ADUANA 28/07/2016  2  =>  Valor: 7DECLARACIÓN ÚNICA DE IMPORTACIÓN (DUI) 2017/211/C-8084 VILASECA SRL AGENCIA DES
-P.  Título: DE ADUANA 22/02/2017  2  =>  Valor: 8DECLARACIÓN ÚNICA DE IMPORTACIÓN (DUI) 2019/211/C-47100 VILASECA
-A.  Título: AGENCIA DESPACHANTE DE ADUANA 16/10/2019  3  =>  Valor: 9DECLARACIÓN ÚNICA DE IMPORTACIÓN (DUI) 2020/211/C-36439 VILASECA
-A.  Título: AGENCIA DESPACHANTE DE ADUANA 28/10/2020  4  =>  Valor: 10DECLARACIÓN ÚNICA DE IMPORTACIÓN (DUI) 2015/211/C-35135 VILASECA SRL AGENCIA DES
-P.  Título: DE ADUANA 01/09/2015  5  =>  Valor: 11DECLARACIÓN ÚNICA DE IMPORTACIÓN (DUI) 2015/211/C-44970 VILASECA SRL AGENCIA DES
-P.  Título: DE ADUANA 06/11/2015  5  =>  Valor: 12DECLARACIÓN ÚNICA DE IMPORTACIÓN (DUI) 2016/211/C-1702 VILASECA SRL AGENCIA DES
-P.  Título: DE ADUANA 14/01/2016  6  =>  Valor: 
-K2.  Título: Otros Documentos  =>  Valor: N° Tipo documento N° Documento Emisor Fecha de emisiónFecha de vencimientoÍtems asociados
-M.  Título: Información adicional  =>  Valor: SEÑOR ADMINISTRADOR: -------------------------------------- SE TRATA DE UNA EXPORTACIÓN DEFINITIVA DE 1 BULTO QUE CONTIENEN EQUIPOS DE RED, EL INCOTERM FCA LA PAZ – BOLIVI
-A.  Título: DETALLE DE ITEM EXPORTADOS: ------------------------------------------------ ITEM 1.- CANTIDAD:1 ANTENA, 2.4GHZ 2 DBI/5GHZ 4 DBI DIPOLE AN  =>  Valor: 
-T.  Título: , WHITE, RP-TNC, SELF ID, PRODUCT NUM: AIR-  =>  Valor: ANT2524DW- RS=, ECCN: NOCLASS, EXPORT LICENSE: NLR ORIGEN: MALASIA NUMEROS DIM DE IMPORTACION: DI-2023-211-2439282 ITEM 1 ITEM 2.- CANTIDAD:2 APARATOS DE ENRUTAMIENTO, ^^CISCO 881 ETH SEC ROUTER WITH 802.11N FCC COMPLIANT, PRODUCT NUM: C881W-A-K9, ECCN: NOCLASS, EXPORT LICENSE: NLR ORIGEN: ESTADOS UNIDOS DE NORTEAMERICA NUMEROS DUIS DE IMPORTACION: 2016/211/C-29545 ITEM 1 Y 2017/211/C-8084 ITEM 2 ITEM 3.- CANTIDAD:1 CONMUTADOR DE RED, ^CISCO SG250-50 50-PORT GIGABIT SMART SWITCH, PRODUCT NUM: SG250-50-K9-NA, ECCN: NOCLASS, EXPORT LICENSE: NLR ORIGEN: CHINA NUMEROS DUI DE IMPORTACION: 2019/211/C-47100 ITEM 7 ITEM 4.- CANTIDAD:1 DISPOSITIVO DE ALMACENAMIENTO, ^7.6TB 2.5 INCH ENTERPRISE VALUE 6G SATA SSD, PRODUCT NUM: UCS-SD76T61X-EV=, ECCN: NOCLASS, EXPORT LICENSE: NLR ORIGEN: COREA DEL SUR NUMEROS DUI DE IMPORTACION: 2020/211/C-36439 ITEM 7 ITEM 5.- CANTIDAD:2 DISPOSITIVO DE ALMACENAMIENTO, ^UCS C3X60 SATA SSD 120GB ENTERPRISE VALUE, PRODUCT NUM: UCSC-C3X60-12SSD=, ECCN: NOCLASS, EXPORT LICENSE: NLR ORIGEN: TAIWAN NUMEROS DUIS DE IMPORTACION: 2015/211/C-44970 ITEM 2 Y 2015/211/C-35135 ITEM 20 ITEM 6.- CANTIDAD:1 CONMUTADOR PARA RED, ^CISCO CATALYST 3650 48 PORT FULL POE 4X1G UPLINK LAN BASE, PRODUCT NUM: WS-C3650-48FS-L, ECCN: 5.
-A.  Título: 2, EXPORT LICENSE: NLR ORIGEN: CHINA  =>  Valor: NUMEROS DUI DE IMPORTACION: 2016/211/C-1702 ITEM 16 
+A0. => Embarque Codigo  =>  BR465147084
+A. => Identificación de la Declaración  =>  
+A1. => N° de declaración  =>  DI-2025-721-2107182
+A2. => Fecha de aceptación  =>  17/04/2025 10:03
+A3. => N° de referencia  =>  0839-25
+A4. => Aduana de despacho  =>  721 - FRONTERA PUERTO SUAREZ
+A5. => Destino/Régimen aduanero  =>  40 - IMPORTACION PARA EL CONSUMO
+A6. => Modalidad del régimen  =>  4003 - DESPACHO EN FRONTERA DS 2295
+A7. => Modalidad de despacho  =>  02 - ANTICIPADO
+A8. => Tratamiento especial  =>  TRATAMIENTO COMUN
+A9. => Plazo  =>  20
+A10. => N° documento asociado  =>  DAM-2025-36166
+A10.1. => N° Parte de Recepción  =>  
+A11. => Forma de envío  =>  02 - ENVIO TOTAL
+A12. => Tipo de despacho  =>  02 - DESPACHO TOTAL
+A13. => Número carpeta  =>  
+B. => Operadores  =>  Datos Tipo de documento N° de documento Nombre/Razón social Categoría *Domicilio, Ciudad, País, Teléfono, Fax, Correo Electrónico
+B1.TIPO => Tipo de Documento  =>  NIT
+B1.NUMERO => Nro. de documento  =>  1020229024
+B1.NOMBRE => Nombre/Razón social  =>  CERVECERIA BOLIVIANA NACIONAL
+B1.CATEGORIA => Categoría  =>  
+B1.DOMICILIO => Domicilio  =>  -CHUQUISACA, 121, CHALLAPAMPA, LA PAZ, LA PAZ, BOLIVIA, 2455455, adgarcia@cbn.com.bo
+B2.TIPO => Tipo de Documento  =>  NIT
+B2.NUMERO => Nro. de documento  =>  1000899025
+B2.NOMBRE => Nombre/Razón social  =>  VILASECA S.A. AGENCIA DESPACHANTE DE ADUANA
+B2.CATEGORIA => Categoría  =>  OEA
+B2.DOMICILIO => Domicilio  =>  MERCADO, 1328, CENTRAL, LA PAZ, LA PAZ, BOLIVIA, 2202077, 2201860,
+C. => Lugares  =>  
+C1. => País de exportación  =>  BR - BRASIL
+C2. => Lugar de embarque  =>  BRPNM - PINDAMONHANGABA
+C3. => Fecha de embarque  =>  13/04/2025
+C4. => País de procedencia  =>  BR - BRASIL
+C5. => País de tránsito  =>  BR - BRASIL
+C6. => Aduana de ingreso  =>  721 - FRONTERA PUERTO SUAREZ
+C7. => Departamento de destino  =>  OR - ORURO
+C8. => Localidad de destino  =>  BOORU - ORURO
+D. => Transporte  =>  
+D1. => Modalidad de transporte hasta frontera  =>  3 - TRANSPORTE CARRETERO
+D2. => Modalidad de transporte desde frontera  =>  3 - TRANSPORTE CARRETERO
+D3. => Carga peligrosa  =>  NO
+F. => Totales para control de la Declaración  =>  
+F1. => Total N° Facturas  =>  3
+F2. => Total N° de Items  =>  3
+F3. => Total N° de bultos  =>  12
+F4. => Total peso bruto (kg)  =>  62415.0
+F5. => Total peso neto (kg)  =>  61847,0
+F6. => Total valor FOB (USD)  =>  248853,77
+F7. => Gastos Trans hasta el lugar de importación (USD)  =>  12600
+F8. => Total costo del seguro (USD)  =>  10
+F9. => Gastos de carga, descarga, manipuleo y otros gastos (USD)  =>  0
+F10. => Total valor CIF aduana (BOB)  =>  1819787
+G. => Observaciones generales de la declaración  =>  Liquidación total de tributos, exoneraciones, suspensiones u otros cargos ( Expresado en bolivianos )
+G.TOTAL => Total tributos a pagar  =>  271876
+E. => Información y valores totales de la factura Factura 1 de 3  =>  
+E1. => Datos del Proveedor: NOVELIS DO BRASIL LTD  =>  
+A. => , A  =>  
+V. => BURITI 1087, 1087, , PINDAMONHANGABA, BRASIL, (11)55030883,  =>  ventas@novelis.com.br
+E1.1 => Categoría  =>  -
+E1.2 => Condición del proveedor  =>  01 - FABRICANTE
+E2. => País de adquisición  =>  BR - BRASIL
+E3. => N° de la factura  =>  8314-02/2025
+E4. => Fecha de la factura  =>  10/04/2025
+E5. => Condición de entrega (INCOTERMS)  =>  FCA - FRANCO TRANSPORTISTA - LIBRE
+E6. => Lugar de entrega (INCOTERMS)  =>  PINDAMONHANGABA - BRASIL
+E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
+E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
+E9. => Valor de transacción  =>  87555.71
+E10. => T/C moneda de transacción  =>  
+E11. => Destino de la mercancía  =>  INDUSTRIALIZACION
+E12. => Factura sujeta a descuento  =>  NO
+E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
+E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
+E15. => Valor FOB total (USD)  =>  87555.71
+E16. => Tipo de cambio (USD-BOB)  =>  6.96
+E17. => Total valor FOB (BOB)  =>  609388
+E23. => Valor CIF aduana total (BOB)  =>  640267
+E24. => Otras erogaciones (USD)  =>  0.0
+K. => Actuaciones  =>  Declarante Aduana Código de seguridad 
+H. => Identificación de la mercancía por ítem  =>  
+H1. => N° ítem  =>  1
+H2. => Tratamiento especial  =>  
+H3. => Subpartida arancelaria  =>  7606129000
+H4. => Cod. Complementario  =>  
+H5. => Cod. Suplementario  =>  
+Arancel => Descripción arancelaria  =>  - - - Los demás
+H6. => Unidad física  =>  KILOGRAMO
+H7. => Cantidad física  =>  21760.0
+H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
+H8.1 => Nombre Mercancia  =>  COMUNES
+H8.2 => Especifique Nombre Mercancia  =>  ROLLOS DE ALUMINIO
+H8.3 => Marca comercial  =>  NOVELIS
+H8.4 => Tipo  =>  -
+H8.5 => Clase  =>  -
+H8.6 => Modelo  =>  60001783
+H8.7 => Cuantitativo 1  =>  ALEACIÓN 3104 TEMPLE H19, ESPESOR 0.24900MM 0.00980\" ANCHO 1599.00MM 62.95\", 12OZ
+H8.8 => Composición  =>  SERIE 3000 ALEACION ALUMINIO AL 95%, MAGNESIO 1.3%, MANGANESO 1.4%
+H8.9 => Forma de presentación  =>  4
+H8.10 => Material  =>  ALUMINIO 330
+H8.11 => Uso  =>  OTRO
+H8.11. => 1 Especifique Uso  =>  FABRICACION LATAS CERVEZA
+H8.12 => Otras características  =>  L: 2543591,2543592,2550741,2550742
+H8.13 => Año modelo  =>  -
+H8.14 => Año fabricación  =>  -
+H9. => Unidad comercial  =>  KGM - KILOGRAMO
+H10. => Cantidad comercial  =>  21760.0
+H11. => Precio unitario (USD)  =>  4.0237
+H12. => País de orígen  =>  BR - BRASIL
+H13. => Acuerdo comercial  =>  ACE36, ACUERDO BOLIVIA - MERCOSUR
+H14. => Tipo de embalaje  =>  PC - PIEZA/PAQUETE O TIPOS VARIADOS
+H15. => Marcas en bulto(s)  =>  
+H16. => Relación Ítem-N° de bulto(s)  =>  4
+H17. => Peso Neto (kg)  =>  21760.0
+H18. => Estado de la mercancía  =>  NUEVA
+H19. => Resolución RITEX  =>  
+H20. => Código RITEX  =>  
+H21. => Cantidad RITEX  =>  
+H22. => Declaración precedente  =>  
+H23. => Mod. régimen precedente  =>  
+H24. => Ítem precedente  =>  
+I. => Información y valores de transacción del ítem  =>  
+I1. => Valor de transacción  =>  87555.71
+I2. => Valor FOB del ítem (USD)  =>  87555.71
+I2.1 => Valor FOB unitario (USD)  =>  4.023
+I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  4433.13
+I4. => Costo seguro ítem (USD)  =>  3.52
+I5. => Gastos portuarios (USD)  =>  0.0
+I6. => Otros Gastos (USD)  =>  0.0
+I7. => Valor CIF ítem aduana (USD)  =>  91992.36
+I8. => Valor CIF ítem aduana (BOB)  =>  640267
+I9. => Otras erogaciones del ítem (USD)  =>  0.0
+J. => Información adicional del Ítem  =>  
+J.GA => GA  =>  0
+J.IVA => IVA  =>  95656
+E. => Información y valores totales de la factura Factura 2 de 3  =>  
+E1. => Datos del Proveedor: NOVELIS DO BRASIL LTD  =>  
+A. => , A  =>  
+V. => BURITI 1087, 1087, , PINDAMONHANGABA, BRASIL, (11)55030883,  =>  ventas@novelis.com.br
+E1.1 => Categoría  =>  -
+E1.2 => Condición del proveedor  =>  01 - FABRICANTE
+E2. => País de adquisición  =>  BR - BRASIL
+E3. => N° de la factura  =>  8314-03/2025
+E4. => Fecha de la factura  =>  10/04/2025
+E5. => Condición de entrega (INCOTERMS)  =>  FCA - FRANCO TRANSPORTISTA - LIBRE
+E6. => Lugar de entrega (INCOTERMS)  =>  PINDAMONHANGABA - BRASIL
+E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
+E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
+E9. => Valor de transacción  =>  76703.79
+E10. => T/C moneda de transacción  =>  
+E11. => Destino de la mercancía  =>  INDUSTRIALIZACION
+E12. => Factura sujeta a descuento  =>  NO
+E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
+E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
+E15. => Valor FOB total (USD)  =>  76703.79
+E16. => Tipo de cambio (USD-BOB)  =>  6.96
+E17. => Total valor FOB (BOB)  =>  533858
+E23. => Valor CIF aduana total (BOB)  =>  560910
+E24. => Otras erogaciones (USD)  =>  0.0
+H. => Identificación de la mercancía por ítem  =>  
+H1. => N° ítem  =>  2
+H2. => Tratamiento especial  =>  
+H3. => Subpartida arancelaria  =>  7606129000
+H4. => Cod. Complementario  =>  
+H5. => Cod. Suplementario  =>  
+Arancel => Descripción arancelaria  =>  - - - Los demás
+H6. => Unidad física  =>  KILOGRAMO
+H7. => Cantidad física  =>  19063.0
+H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
+H8.1 => Nombre Mercancia  =>  COMUNES
+H8.2 => Especifique Nombre Mercancia  =>  ROLLOS DE ALUMINIO
+H8.3 => Marca comercial  =>  NOVELIS
+H8.4 => Tipo  =>  -
+H8.5 => Clase  =>  -
+H8.6 => Modelo  =>  60001783
+H8.7 => Cuantitativo 1  =>  ALEACIÓN 3104 TEMPLE H19, ESPESOR 0.24900MM 0.00980\" ANCHO 1599.00MM 62.95\", 12OZ
+H8.8 => Composición  =>  SERIE 3000 ALEACION ALUMINIO AL 95%, MAGNESIO 1.3%, MANGANESO 1.4%
+H8.9 => Forma de presentación  =>  4
+H8.10 => Material  =>  ALUMINIO 330
+H8.11 => Uso  =>  OTRO
+H8.11. => 1 Especifique Uso  =>  FABRICACION LATAS CERVEZA
+H8.12 => Otras características  =>  L: 2454981,2536762,2555291,2555292
+H8.13 => Año modelo  =>  -
+H8.14 => Año fabricación  =>  -
+H9. => Unidad comercial  =>  KGM - KILOGRAMO
+H10. => Cantidad comercial  =>  19063.0
+H11. => Precio unitario (USD)  =>  4.0237
+H12. => País de orígen  =>  BR - BRASIL
+H13. => Acuerdo comercial  =>  ACE36, ACUERDO BOLIVIA - MERCOSUR
+H14. => Tipo de embalaje  =>  PC - PIEZA/PAQUETE O TIPOS VARIADOS
+H15. => Marcas en bulto(s)  =>  
+H16. => Relación Ítem-N° de bulto(s)  =>  4
+H17. => Peso Neto (kg)  =>  19063.0
+H18. => Estado de la mercancía  =>  NUEVA
+H19. => Resolución RITEX  =>  
+H20. => Código RITEX  =>  
+H21. => Cantidad RITEX  =>  
+H22. => Declaración precedente  =>  
+H23. => Mod. régimen precedente  =>  
+H24. => Ítem precedente  =>  
+I. => Información y valores de transacción del ítem  =>  
+I1. => Valor de transacción  =>  76703.79
+I2. => Valor FOB del ítem (USD)  =>  76703.79
+I2.1 => Valor FOB unitario (USD)  =>  4.023
+I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  3883.68
+I4. => Costo seguro ítem (USD)  =>  3.08
+I5. => Gastos portuarios (USD)  =>  0.0
+I6. => Otros Gastos (USD)  =>  0.0
+I7. => Valor CIF ítem aduana (USD)  =>  80590.55
+I8. => Valor CIF ítem aduana (BOB)  =>  560909
+I9. => Otras erogaciones del ítem (USD)  =>  0.0
+J. => Información adicional del Ítem  =>  
+J.GA => GA  =>  0
+J.IVA => IVA  =>  83800
+E. => Información y valores totales de la factura Factura 3 de 3  =>  
+E1. => Datos del Proveedor: NOVELIS DO BRASIL LTD  =>  
+A. => , A  =>  
+V. => BURITI 1087, 1087, , PINDAMONHANGABA, BRASIL, (11)55030883,  =>  ventas@novelis.com.br
+E1.1 => Categoría  =>  -
+E1.2 => Condición del proveedor  =>  01 - FABRICANTE
+E2. => País de adquisición  =>  BR - BRASIL
+E3. => N° de la factura  =>  8314-04/2025
+E4. => Fecha de la factura  =>  10/04/2025
+E5. => Condición de entrega (INCOTERMS)  =>  FCA - FRANCO TRANSPORTISTA - LIBRE
+E6. => Lugar de entrega (INCOTERMS)  =>  PINDAMONHANGABA, BRASIL
+E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
+E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
+E9. => Valor de transacción  =>  84594.27
+E10. => T/C moneda de transacción  =>  
+E11. => Destino de la mercancía  =>  INDUSTRIALIZACION
+E12. => Factura sujeta a descuento  =>  NO
+E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
+E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
+E15. => Valor FOB total (USD)  =>  84594.27
+E16. => Tipo de cambio (USD-BOB)  =>  6.96
+E17. => Total valor FOB (BOB)  =>  588776
+E23. => Valor CIF aduana total (BOB)  =>  618611
+E24. => Otras erogaciones (USD)  =>  0.0
+H. => Identificación de la mercancía por ítem  =>  
+H1. => N° ítem  =>  3
+H2. => Tratamiento especial  =>  
+H3. => Subpartida arancelaria  =>  7606129000
+H4. => Cod. Complementario  =>  
+H5. => Cod. Suplementario  =>  
+Arancel => Descripción arancelaria  =>  - - - Los demás
+H6. => Unidad física  =>  KILOGRAMO
+H7. => Cantidad física  =>  21024.0
+H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
+H8.1 => Nombre Mercancia  =>  COMUNES
+H8.2 => Especifique Nombre Mercancia  =>  ROLLOS DE ALUMINIO
+H8.3 => Marca comercial  =>  NOVELIS
+H8.4 => Tipo  =>  -
+H8.5 => Clase  =>  -
+H8.6 => Modelo  =>  60001783
+H8.7 => Cuantitativo 1  =>  ALEACIÓN 3104 TEMPLE H19, ESPESOR 0.24900MM 0.00980\" ANCHO 1599.00MM 62.95\", 12OZ
+H8.8 => Composición  =>  SERIE 3000 ALEACION ALUMINIO AL 95%, MAGNESIO 1.3%, MANGANESO 1.4%
+H8.9 => Forma de presentación  =>  4
+H8.10 => Material  =>  ALUMINIO 330
+H8.11 => Uso  =>  OTRO
+H8.11. => 1 Especifique Uso  =>  FABRICACION LATAS CERVEZA
+H8.12 => Otras características  =>  L: 2559512,2561981,2561982,2562162
+H8.13 => Año modelo  =>  -
+H8.14 => Año fabricación  =>  -
+H9. => Unidad comercial  =>  KGM - KILOGRAMO
+H10. => Cantidad comercial  =>  21024.0
+H11. => Precio unitario (USD)  =>  4.0237
+H12. => País de orígen  =>  BR - BRASIL
+H13. => Acuerdo comercial  =>  ACE36, ACUERDO BOLIVIA - MERCOSUR
+H14. => Tipo de embalaje  =>  PC - PIEZA/PAQUETE O TIPOS VARIADOS
+H15. => Marcas en bulto(s)  =>  
+H16. => Relación Ítem-N° de bulto(s)  =>  4
+H17. => Peso Neto (kg)  =>  21024.0
+H18. => Estado de la mercancía  =>  NUEVA
+H19. => Resolución RITEX  =>  
+H20. => Código RITEX  =>  
+H21. => Cantidad RITEX  =>  
+H22. => Declaración precedente  =>  
+H23. => Mod. régimen precedente  =>  
+H24. => Ítem precedente  =>  
+I. => Información y valores de transacción del ítem  =>  
+I1. => Valor de transacción  =>  84594.27
+I2. => Valor FOB del ítem (USD)  =>  84594.27
+I2.1 => Valor FOB unitario (USD)  =>  4.023
+I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  4283.19
+I4. => Costo seguro ítem (USD)  =>  3.4
+I5. => Gastos portuarios (USD)  =>  0.0
+I6. => Otros Gastos (USD)  =>  0.0
+I7. => Valor CIF ítem aduana (USD)  =>  88880.86
+I8. => Valor CIF ítem aduana (BOB)  =>  618611
+I9. => Otras erogaciones del ítem (USD)  =>  0.0
+J. => Información adicional del Ítem  =>  
+J.GA => GA  =>  0
+J.IVA => IVA  =>  92420
+L. => Documentos de la Declaración  =>  
+L1. => Documentos soporte  =>  N° Tipo documento Número Emisor Fecha emisiónMonto Ítems asociados Estado doc. Ver 1CARTA DE PORTE INTERNACIONAL POR CARRETERA (CRT)BR465147084 SAP TRANSPORTES INTERNACIONAL EIRELI EPP13/04/2025  1 AL 3 FOTOCOPIA SIMPLEVer 2FACTURA COMERCIAL 8314-02/2025 NOVELIS DO BRASIL LTD
+A. => 10/04/2025 USD 87555.71 1 FOTOCOPIA  =>  SIMPLEVer 3FACTURA COMERCIAL 8314-03/2025 NOVELIS DO BRASIL LTD
+A. => 10/04/2025 USD 76703.79 2 FOTOCOPIA  =>  SIMPLEVer 4FACTURA COMERCIAL 8314-04/2025 NOVELIS DO BRASIL LTD
+A. => 10/04/2025 USD 84594.27 3 FOTOCOPIA  =>  SIMPLEVer 
+L. => Documentos de la Declaración  =>  
+L1. => Documentos soporte  =>  N° Tipo documento Número Emisor Fecha emisiónMonto Ítems asociados Estado doc. Ver 5LISTA DE EMPAQUE 8314-02/2025 NOVELIS DO BRASIL LTD
+A. => 10/04/2025  1 FOTOCOPIA  =>  SIMPLEVer 6LISTA DE EMPAQUE 8314-03/2025 NOVELIS DO BRASIL LTD
+A. => 10/04/2025  2 FOTOCOPIA  =>  SIMPLEVer 7LISTA DE EMPAQUE 8314-04/2025 NOVELIS DO BRASIL LTD
+A. => 10/04/2025  3 FOTOCOPIA  =>  SIMPLEVer 8FACTURA DE TRANSPORTE 257 SAP TRANSPORTES INTERNACIONAL EIRELI13/04/2025 USD 21600 1 AL 3 FOTOCOPIA SIMPLEVer 9POLIZA DE  SEGURO 8396 LA BOLIVIANA CIACRUZ SEGUROS 10/04/2025 USD 248853.77 1 AL 3 ORIGINAL Ver 10DECLARACION ANDINA DE VALOR (DAV) 2541952 CERVECERIA BOLIVIANA NACIONAL
+A. => 16/04/2025  1 AL 3 ORIGINAL Ver  =>  11CERTIFICADO DE ORIGEN BR082A36252905202000 FECOMERCIO PR 16/04/2025  1 FOTOCOPIA SIMPLEVer 12CERTIFICADO DE ORIGEN BR082A36252905201600 FECOMERCIO PR 16/04/2025  2 FOTOCOPIA SIMPLEVer 13CERTIFICADO DE ORIGEN BR082A36252905201500 FECOMERCIO PR 16/04/2025  3 FOTOCOPIA SIMPLEVer 14Declaración de exportación del país de origen o procedencia de la mercancía25BR000683873-0 RECEITA FEDERAL 16/04/2025  1 AL 3 FOTOCOPIA SIMPLEVer 15OTRO S/N NOVELIS DO BRASIL LTD
+A. => 20/12/2021  1 AL 3 FOTOCOPIA  =>  SIMPLEVer 16OTRO 4521860573 CERVECERIA BOLIVIANA NACIONAL
+A. => 15/04/2025  1 AL 3 FOTOCOPIA  =>  SIMPLEVer
+M. => Información adicional  =>  SEÑOR ADMINISTRADOR: --- REALIZAMOS EL PRESENTE DESPACHO BAJO RÉGIMEN ANTICIPADO, SEGUN EL
+S. => 1443 Y AR  =>  
+T. => 77 DE LA LEY 1990 Y ART  =>  
+S. => 121-B), 123 A 127 DEL REGLAMENTO A LA LEY GENERAL DE ADUANA  =>  
+S. => ---  =>  EL MEDIO DE PAGO DE LA TRANSACCIÓN ES A CREDITO DE 60 DIAS, COMO INDICAN LAS FACTURAS COMERCIALE
+S. => ---  =>  PARA EFECTOS DE LIQUIDACIÓN SE APLICA EL AR
+T. => 20 DEL REGLAMENTO A LA LEY GENERAL DE ADUANA  =>  
+S. => ---  =>  APLICAMOS LA DESGRAVACION DEL 100% DE GA SEGUN EL ACUERDO DE COMPLEMENTACION ECONOMICA ACE36 SUSCRITOS ENTRE LOS GOBIERNOS DE BOLIVIA-BRASIL, EL MISMO FIRMADO POR EL DESPACHANTE SEGUN EL PODER QUE OTORGA NOVELIS A SU DESPACHANTE DE ADUAN
+A. => ---  =>  REFERENCIA DAM-2025-36166 --- PEDIDO: 4521860573
+N. => Números y/o Códigos de Control  =>  

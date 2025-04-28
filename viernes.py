@@ -293,6 +293,66 @@ def extraer_campos_pdf(ruta_pdf):
                                 nuevo_bloque.append('')
                         for j in range(5):
                             campos[idx - 4 + j]['valor'] = nuevo_bloque[j]
+    
+    aux = []
+    for c in campos:
+       
+        if c['id'] in {'B1.', 'B2.'}:
+            # Remover prefijos "Importador:" o "Declarante:" del título
+            nuevo_titulo = re.sub(r'^(Importador:|Declarante:)\s*', '', c['titulo'])
+            tokens = nuevo_titulo.split()
+            doc_tipo = tokens[0] if len(tokens) > 0 else ""
+            doc_numero = tokens[1] if len(tokens) > 1 else ""
+            nombre = " ".join(tokens[2:]) if len(tokens) > 2 else ""
+            # Procesar valor: buscar el patrón donde "OEA" separe la categoría del domicilio
+            m_val = re.search(r'^(.*?)(OEA)(.*)$', c['valor'])
+            if m_val:
+                parte1 = m_val.group(1).strip()  # Para B2. se usará en el nombre
+                categoria = m_val.group(2).strip()
+                domicilio = m_val.group(3).strip()
+            else:
+                categoria = ""
+                domicilio = c['valor']
+            # Para B2., si existe "parte1", se agrega "S.A." al nombre y se concatena parte1
+            if c['id'] == 'B2.' and m_val and parte1:
+                nombre = nombre + " S.A. " + parte1
+            aux.append({'id': c['id'][:-1] + ".TIPO", 'titulo': "Tipo de Documento", 'valor': doc_tipo})
+            aux.append({'id': c['id'][:-1] + ".NUMERO", 'titulo': "Nro. de documento", 'valor': doc_numero})
+            aux.append({'id': c['id'][:-1] + ".NOMBRE", 'titulo': "Nombre/Razón social", 'valor': nombre})
+            aux.append({'id': c['id'][:-1] + ".CATEGORIA", 'titulo': "Categoría", 'valor': categoria})
+            aux.append({'id': c['id'][:-1] + ".DOMICILIO", 'titulo': "Domicilio", 'valor': domicilio})
+            continue
+
+  
+        if c['id'] == 'E1.':
+            if ':' in c['titulo']:
+                parts = c['titulo'].split(":", 1)
+                c['titulo'] = parts[0].strip()
+                c['valor'] = (parts[1].strip() + " " + c['valor']).strip()
+            aux.append(c)
+            continue
+
+       
+        # Para H5.: si el valor inicia con "Descripción arancelaria:" se deja en blanco y se crea un campo extra "Arancel"
+        if c['id'] == 'H5.':
+            if c['valor'].strip().startswith("Descripción arancelaria:"):
+                extra = c['valor'].replace("Descripción arancelaria:", "", 1).strip()
+                c['valor'] = ""
+                aux.append(c)
+                aux.append({'id': "Arancel", 'titulo': "Descripción arancelaria", 'valor': extra})
+            else:
+                aux.append(c)
+            continue
+
+        # Para E14.: eliminar la subcadena "Valores y costos" del valor
+        if c['id'] == 'E14.':
+            c['valor'] = c['valor'].replace("Valores y costos", "").strip()
+            aux.append(c)
+            continue
+
+        aux.append(c)
+    campos = aux
+    
     nuevos_campos = []
     for c in campos:
         nuevos_campos.append(c)
@@ -326,7 +386,7 @@ def extraer_campos_pdf(ruta_pdf):
         for c in campos:
             c['valor'] = c['valor'].replace('Nueva pagina', '')
            
-            out.write(f"{c['id']}  Título: {c['titulo']}  =>  Valor: {c['valor']}\n")
+            out.write(f"{c['id']} => {c['titulo']}  =>  {c['valor']}\n")
 
     return campos
 
