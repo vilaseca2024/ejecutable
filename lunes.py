@@ -149,21 +149,56 @@ def extraer_campos_pdf(ruta_pdf):
         lines = [l.strip() for l in bloque.splitlines() if l.strip()]
         if not lines:
             continue
+        
         if id_actual in {'J.', 'G.'}:
-            campos.append({'id': id_actual, 'titulo': lines[0], 'valor': lines[1] if len(lines) > 1 else ''})
+            campos.append({
+                'id': id_actual,
+                'titulo': lines[0],
+                'valor': lines[1] if len(lines) > 1 else ''
+            })
             for line in lines[2:]:
-                if re.match(r'^(Liquidación|Tipo|Sub totales)', line):
+                line_stripped = line.strip()
+                if re.match(r'^(Liquidación|Tipo|Sub totales)', line_stripped):
                     continue
-                m = re.match(r'^(GA|IVA|IDHE)\b', line)
-                if m:
-                    code = m.group(1)
-                    last_val = line.split()[-1]
-                    campos.append({'id': f"{id_actual.rstrip('.')}.{code}", 'titulo': code, 'valor': last_val})
+
+                # Buscar líneas que comienzan con GA, IVA o IDHE como prefijo
+                if line_stripped.startswith("GA"):
+                    valor = line_stripped.split()[-1]
+                    campos.append({
+                        'id': f"{id_actual.rstrip('.')}.GA",
+                        'titulo': 'GA',
+                        'valor': valor
+                    })
                     continue
-                if id_actual == 'G.' and line.startswith('Total tributos a pagar'):
-                    parts = line.split()
-                    campos.append({'id': f"{id_actual.rstrip('.')}.TOTAL", 'titulo': ' '.join(parts[:-1]), 'valor': parts[-1]})
+                elif line_stripped.startswith("IVA"):
+                    valor = line_stripped.split()[-1]
+                    campos.append({
+                        'id': f"{id_actual.rstrip('.')}.IVA",
+                        'titulo': 'IVA',
+                        'valor': valor
+                    })
+                    continue
+                elif line_stripped.startswith("IDHE"):
+                    valor = line_stripped.split()[-1]
+                    campos.append({
+                        'id': f"{id_actual.rstrip('.')}.IDHE",
+                        'titulo': 'IDHE',
+                        'valor': valor
+                    })
+                    continue
+
+                # Total para G.
+                if id_actual == 'G.' and line_stripped.startswith('Total tributos a pagar'):
+                    parts = line_stripped.split()
+                    campos.append({
+                        'id': f"{id_actual.rstrip('.')}.TOTAL",
+                        'titulo': ' '.join(parts[:-1]),
+                        'valor': parts[-1]
+                    })
             continue
+
+
+
         if id_actual in sublevel_ids:
             base = id_actual.rstrip('.')
             base_lines, rest = [], []
@@ -219,24 +254,26 @@ def extraer_campos_pdf(ruta_pdf):
             prev = c
     campos = clean
     for c in campos:
-        if c['id'] == 'H8.9':
-            if not c['valor']:
-                idx = campos.index(c)
-                if idx + 1 < len(campos):
-                    next_c = campos[idx + 1]
-                    m = re.match(r'^H8\.(\d+)$', next_c['id'])
-                    if m:
-                        c['valor'] = m.group(1)
-            else:
-                m = re.match(r'(\d+)', c['valor'])
-                if m:
-                    c['valor'] = m.group(1)
+        # if c['id'] == 'H8.9':
+        #     if not c['valor']:
+        #         idx = campos.index(c)
+        #         if idx + 1 < len(campos):
+        #             next_c = campos[idx + 1]
+        #             m = re.match(r'^H8\.(\d+)$', next_c['id'])
+        #             if m:
+        #                 c['valor'] = m.group(1)
+        #     else:
+        #         m = re.match(r'(\d+)', c['valor'])
+        #         if m:
+        #             c['valor'] = m.group(1)
+
+
         if c['id'] == 'F4.':
             c['valor'] = c['valor'].replace(',', '.')
         if c['id'] == 'J.':    
             if not c['valor'].startswith('OI'):
                 c['valor'] = ''
-        # Se puede agregar más lógica según se requiera…
+      
     for idx, c in enumerate(campos):
         if 'Nueva pagina' in c['valor']:
             if idx >= 4 and all(campos[idx - k - 1]['valor'].strip() == '' for k in range(3)):
@@ -374,7 +411,16 @@ def extraer_campos_pdf(ruta_pdf):
     # ya no tocamos `campos` directamente:
     campos = nuevos_campos
 
-    
+    for i, c in enumerate(campos):
+    # Si el campo actual es "E1." y hay al menos un elemento siguiente...
+        if c['id'] == 'E1.' and (i + 1) < len(campos):
+            next_field = campos[i + 1]
+            # Verifica que el siguiente campo no sea "E1.1" y tenga un id formado por una sola letra y punto.
+            if next_field['id'] != 'E1.1' and re.match(r'^[A-Z]\.$', next_field['id']):
+                # Concatena el título y el valor del siguiente campo al valor del campo E1.
+                c['valor'] = c['valor'].strip()+ next_field['id'].strip()  + next_field['titulo'].strip() + " " + next_field['valor'].strip()
+
+
 
     try:
         os.remove(ruta_redacted)
