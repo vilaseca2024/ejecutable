@@ -7,7 +7,7 @@ import openpyxl
 from PyPDF2 import PdfReader
 from tkinter import Tk, Canvas, Entry, Button, PhotoImage, filedialog, END, Variable, messagebox
 from tkinter import Toplevel, Label
-
+import time
 # ────────────── CONFIGURACIÓN DE ASSETS Y RUTAS ──────────────
 
 OUTPUT_PATH = Path(__file__).parent
@@ -27,7 +27,6 @@ window.iconbitmap(relative_to_assets("logo.ico"))
 # ────────────── FUNCIONES DE CARGA DE ARCHIVOS ──────────────
 
 def select_output_path():
-    # Selección de archivos PDF para procesar (campo principal)
     selected_files = filedialog.askopenfilenames(
         title="Seleccionar archivos PDF",
         filetypes=[("Archivos PDF", "*.pdf")],
@@ -38,7 +37,6 @@ def select_output_path():
         output_entry.insert(0, '; '.join(selected_files))
 
 def select_output_path_7():
-    # Selección del archivo Excel "mosol"
     selected_files = filedialog.askopenfilenames(
         title="Seleccionar archivo Excel (mosol)",
         filetypes=[("Archivos Excel", "*.xlsx")],
@@ -46,7 +44,6 @@ def select_output_path_7():
     )
     output_entry7.delete(0, END)
     if selected_files:
-        # Aunque se seleccionen varios, tomamos el primero
         output_entry7.insert(0, selected_files[0])
 
 # ────────────── FUNCIONES PARA TOGGLE DEL MOSOL ──────────────
@@ -111,7 +108,6 @@ def eval_expr(expr, row_dict):
 
 
 def extraer_campos_pdf(ruta_pdf):
-    # Abre el PDF y realiza redacciones, extrayendo los datos
     doc = fitz.open(ruta_pdf)
     zona_encabezado = fitz.Rect(0, 0, doc[0].rect.width, 60)
     for pagina in doc:
@@ -127,24 +123,20 @@ def extraer_campos_pdf(ruta_pdf):
     ruta_redacted = ruta_pdf.replace('.pdf', '_redacted.pdf')
     doc.save(ruta_redacted)
     doc.close()
-
-    # Extrae texto completo del PDF redacted
     full_text = ""
     with open(ruta_redacted, 'rb') as f:
         reader = PdfReader(f)
         for page in reader.pages:
             txt = page.extract_text()
+            txt = re.sub(r'[^\x20-\x7EñÑáéíóúÁÉÍÓÚüÜ\s]', '', txt)
+
             if txt:
                 full_text += txt + "\n"
-
-    # Patrón general para bloques numerados
     pattern = r'([A-Z]\d*(?:\.\d+)?\.)\s*([\s\S]*?)(?=(?:[A-Z]\d*(?:\.\d+)?\.)|$)'
     matches = re.findall(pattern, full_text, re.DOTALL)
 
     campos = []
     sublevel_ids = {'H8.', 'E1.', 'I2.'}
-
-    # Procesamiento de cada bloque
     for id_actual, bloque in matches:
         lines = [l.strip() for l in bloque.splitlines() if l.strip()]
         if not lines:
@@ -161,7 +153,6 @@ def extraer_campos_pdf(ruta_pdf):
                 if re.match(r'^(Liquidación|Tipo|Sub totales)', line_stripped):
                     continue
 
-                # Buscar líneas que comienzan con GA, IVA o IDHE como prefijo
                 if line_stripped.startswith("GA"):
                     valor = line_stripped.split()[-1]
                     campos.append({
@@ -187,7 +178,6 @@ def extraer_campos_pdf(ruta_pdf):
                     })
                     continue
 
-                # Total para G.
                 if id_actual == 'G.' and line_stripped.startswith('Total tributos a pagar'):
                     parts = line_stripped.split()
                     campos.append({
@@ -204,51 +194,56 @@ def extraer_campos_pdf(ruta_pdf):
             for line in lines:
                 if re.match(r'^\d+\s+', line):
                     found_num = True
-                if not found_num:
-                    base_lines.append(line)
-                else:
-                    rest.append(line)
-
+                (base_lines if not found_num else rest).append(line)
             if base_lines:
                 campos.append({
                     'id': id_actual,
                     'titulo': base_lines[0],
-                    'valor': ' '.join(base_lines[1:]).strip() if len(base_lines) > 1 else ''
+                    'valor': ' '.join(base_lines[1:]).strip()
                 })
 
             cur_id = cur_title = cur_val = ''
             last_valid_num = 0
-
             for line in rest:
                 m = re.match(r'^(\d+)\s+(.*)', line)
                 if m:
                     num = int(m.group(1))
                     txt = m.group(2).strip()
-
-                    # ✅ Solo permitir subniveles 1 a 14 para H8. + 11.1 especial
-                    is_h8_sub = base == "H8" and 1 <= num <= 14
-                    is_h8_11_1 = base == "H8" and last_valid_num == 11 and num == 1
-
-                    if is_h8_sub or is_h8_11_1 or base != "H8":
-                        if cur_id:
-                            campos.append({
-                                'id': cur_id,
-                                'titulo': cur_title,
-                                'valor': cur_val.strip()
-                            })
-
-                        if is_h8_11_1:
-                            cur_id = f"{base}.11.1"
+                    
+                    if base == "H8":
+                        is_h8_11_1 = (last_valid_num == 11 and num == 1)
+                        is_valid_h8 = is_h8_11_1 or (1 <= num <= 14 and (last_valid_num == 0 or num == last_valid_num + 1))
+                        
+                        if is_valid_h8:
+                            if cur_id:
+                                campos.append({
+                                    'id': cur_id,
+                                    'titulo': cur_title,
+                                    'valor': cur_val.strip()
+                                })
+                            if is_h8_11_1:
+                                cur_id = f"{base}.11.1"
+                            else:
+                                cur_id = f"{base}.{num}"
+                                last_valid_num = num
+                            cur_title = txt
+                            cur_val = ''
                         else:
-                            cur_id = f"{base}.{num}"
-                            last_valid_num = num
-
-                        cur_title = txt
-                        cur_val = ''
+                            cur_val += ' ' + m.group(1) + ' ' + txt
                     else:
                         cur_val += ' ' + line.strip()
                 else:
-                    cur_val += ' ' + line.strip()
+                    line_strip = line.strip()
+                    m_invalid = re.match(r'^([A-Z]+\.)\s*=>\s*(.*)', line_strip)
+                    if m_invalid:
+                        invalid_prefix = m_invalid.group(1)
+                        invalid_content = m_invalid.group(2).replace("=>", "").strip()
+                        if cur_val and re.search(r'[A-Z]+$', cur_val):
+                            cur_val = cur_val.rstrip() + invalid_prefix + ' ' + invalid_content
+                        else:
+                            cur_val += ' ' + invalid_prefix + ' ' + invalid_content
+                    else:
+                        cur_val += ' ' + line_strip
 
             if cur_id:
                 campos.append({
@@ -256,10 +251,9 @@ def extraer_campos_pdf(ruta_pdf):
                     'titulo': cur_title,
                     'valor': cur_val.strip()
                 })
+
             continue
 
-
-        
         titulo = lines[0]
         valor = ' '.join(lines[1:]).strip() if len(lines) > 1 else ''
         campos.append({'id': id_actual, 'titulo': titulo, 'valor': valor})
@@ -279,20 +273,10 @@ def extraer_campos_pdf(ruta_pdf):
             clean.append(c)
             prev = c
     campos = clean
-    for c in campos:
-        # if c['id'] == 'H8.9':
-        #     if not c['valor']:
-        #         idx = campos.index(c)
-        #         if idx + 1 < len(campos):
-        #             next_c = campos[idx + 1]
-        #             m = re.match(r'^H8\.(\d+)$', next_c['id'])
-        #             if m:
-        #                 c['valor'] = m.group(1)
-        #     else:
-        #         m = re.match(r'(\d+)', c['valor'])
-        #         if m:
-        #             c['valor'] = m.group(1)
 
+    
+    for c in campos:
+  
 
         if c['id'] == 'F4.':
             c['valor'] = c['valor'].replace(',', '.')
@@ -361,13 +345,11 @@ def extraer_campos_pdf(ruta_pdf):
     for c in campos:
        
         if c['id'] in {'B1.', 'B2.'}:
-            # Remover prefijos "Importador:" o "Declarante:" del título
             nuevo_titulo = re.sub(r'^(Importador:|Declarante:)\s*', '', c['titulo'])
             tokens = nuevo_titulo.split()
             doc_tipo = tokens[0] if len(tokens) > 0 else ""
             doc_numero = tokens[1] if len(tokens) > 1 else ""
             nombre = " ".join(tokens[2:]) if len(tokens) > 2 else ""
-            # Procesar valor: buscar el patrón donde "OEA" separe la categoría del domicilio
             m_val = re.search(r'^(.*?)(OEA)(.*)$', c['valor'])
             if m_val:
                 parte1 = m_val.group(1).strip()  # Para B2. se usará en el nombre
@@ -376,7 +358,6 @@ def extraer_campos_pdf(ruta_pdf):
             else:
                 categoria = ""
                 domicilio = c['valor']
-            # Para B2., si existe "parte1", se agrega "S.A." al nombre y se concatena parte1
             if c['id'] == 'B2.' and m_val and parte1:
                 nombre = nombre + " S.A. " + parte1
             aux.append({'id': c['id'][:-1] + ".TIPO", 'titulo': "Tipo de Documento", 'valor': doc_tipo})
@@ -394,9 +375,6 @@ def extraer_campos_pdf(ruta_pdf):
                 c['valor'] = (parts[1].strip() + " " + c['valor']).strip()
             aux.append(c)
             continue
-
-       
-        # Para H5.: si el valor inicia con "Descripción arancelaria:" se deja en blanco y se crea un campo extra "Arancel"
         if c['id'] == 'H5.':
             if c['valor'].strip().startswith("Descripción arancelaria:"):
                 extra = c['valor'].replace("Descripción arancelaria:", "", 1).strip()
@@ -406,8 +384,6 @@ def extraer_campos_pdf(ruta_pdf):
             else:
                 aux.append(c)
             continue
-
-        # Para E14.: eliminar la subcadena "Valores y costos" del valor
         if c['id'] == 'E14.':
             c['valor'] = c['valor'].replace("Valores y costos", "").strip()
             aux.append(c)
@@ -426,34 +402,56 @@ def extraer_campos_pdf(ruta_pdf):
             )
             if m:
                 codigo = m.group(1)
-                # insertamos en la nueva lista, en la posición 0
                 nuevos_campos.insert(0, {
                     'id': 'A0.',
                     'titulo': 'Embarque Codigo',
                     'valor': codigo
                 })
-                # si solo quieres la primera ocurrencia, puedes romper aquí:
-                # break
-    # ya no tocamos `campos` directamente:
+                
     campos = nuevos_campos
 
+    campos_corregidos = []
+    h8_indices = []
+
     for i, c in enumerate(campos):
-    # Si el campo actual es "E1." y hay al menos un elemento siguiente...
+        if re.match(r'^H8\.\d+$', c['id']):
+            h8_indices.append(i)
+
+    ultimo_h8_idx_real = h8_indices[-1] if h8_indices else None
+    ultimo_h8_idx_corregido = None
+    en_h8 = False  
+
+    for i, c in enumerate(campos):
+        if re.match(r'^H8\.\d+$', c['id']):
+            if i == ultimo_h8_idx_real:
+                campos_corregidos.append(c)
+                ultimo_h8_idx_corregido = None
+                en_h8 = False
+            else:
+                ultimo_h8_idx_corregido = len(campos_corregidos)
+                campos_corregidos.append(c)
+                en_h8 = True
+        elif re.match(r'^[A-Z]\.$', c['id']) and en_h8 and ultimo_h8_idx_corregido is not None:
+            campos_corregidos[ultimo_h8_idx_corregido]['valor'] += (
+                c['id'] + ' ' + (c['titulo'] + ' ' + c['valor']).strip()
+            )
+        else:
+            campos_corregidos.append(c)
+            en_h8 = False
+
+    campos = campos_corregidos
+
+    for i, c in enumerate(campos):
         if c['id'] == 'E1.' and (i + 1) < len(campos):
             next_field = campos[i + 1]
-            # Verifica que el siguiente campo no sea "E1.1" y tenga un id formado por una sola letra y punto.
             if next_field['id'] != 'E1.1' and re.match(r'^[A-Z]\.$', next_field['id']):
-                # Concatena el título y el valor del siguiente campo al valor del campo E1.
                 c['valor'] = c['valor'].strip()+ next_field['id'].strip()  + next_field['titulo'].strip() + " " + next_field['valor'].strip()
-
-
 
     try:
         os.remove(ruta_redacted)
     except:
         pass
 
-    # Escribe resultado en validar.txt
     with open("validar.txt", "w", encoding="utf-8") as out:
         for c in campos:
             c['valor'] = c['valor'].replace('Nueva pagina', '')
@@ -464,21 +462,15 @@ def extraer_campos_pdf(ruta_pdf):
 
 
 def process_all():
-    # Desactivar el botón para evitar pulsaciones múltiples
     generate_btn.configure(state="disabled")
-    
-    # Crear la ventana "espera"
     waiting = Toplevel(window)
     waiting.title("Procesando...")
     waiting.geometry("300x100")
     waiting.configure(bg="#202020")
-    # Ubicar la ventana en el centro relativo de la ventana principal
     waiting.transient(window)
-    waiting.grab_set()  # Impide interactuar con la principal mientras se procesa
+    waiting.grab_set()  
     Label(waiting, text="Extrayendo datos, espere...", bg="#202020", fg="#FFFFFF", font=("Roboto", 12)).pack(expand=True, fill="both", padx=20, pady=20)
-    waiting.update()  # Fuerza la actualización para que se muestre inmediatamente
-
-    # 1. Recuperar la lista de PDFs (se asume que están separados por "; ")
+    waiting.update()  
     pdfs_str = output_entry.get().strip()
     if not pdfs_str:
         messagebox.showwarning("Advertencia", "Debes seleccionar al menos un archivo PDF.")
@@ -486,10 +478,7 @@ def process_all():
         waiting.destroy()
         return
     rutas_pdfs = [ruta.strip() for ruta in pdfs_str.split(';') if ruta.strip()]
-    
-    # 2. Determinar el archivo Excel "mosol"
     if onoff.get() == "True":
-        # Se usará el archivo seleccionado en el segundo campo
         mosol_path = output_entry7.get().strip()
         if not mosol_path:
             messagebox.showwarning("Advertencia", "El interruptor está activado, pero no se ha seleccionado ningún archivo Excel.")
@@ -497,15 +486,12 @@ def process_all():
             waiting.destroy()
             return
     else:
-        # Se carga el archivo "mosol.xlsx" en la misma ruta que este script
         mosol_path = str(OUTPUT_PATH / "mosol"/"mosol.xlsx")
         if not os.path.exists(mosol_path):
             messagebox.showerror("Error", f"No se encontró el archivo mosol.xlsx en: {OUTPUT_PATH}")
             generate_btn.configure(state="normal")
             waiting.destroy()
             return
-
-    # 3. Abrir el Excel (mosol)
     try:
         wb = openpyxl.load_workbook(mosol_path)
     except Exception as e:
@@ -515,7 +501,6 @@ def process_all():
         return
 
     ws = wb.active
-    # Se asume que la primera fila contiene los encabezados
     headers = [cell.value for cell in ws[1]]
     formula_cols = {
         idx: str(h).strip()
@@ -523,9 +508,7 @@ def process_all():
         if h and any(op in str(h) for op in '+-*/')
     }
     
-    current_row = 3  # A partir de la tercera fila se agregarán los datos procesados
-
-    # 4. Procesar cada PDF
+    current_row = 3 
     for ruta in rutas_pdfs:
         try:
             campos = extraer_campos_pdf(ruta)
@@ -551,7 +534,6 @@ def process_all():
         if item_corr is not None:
             rows_data.append(item_corr)
 
-        # 5. Escribir los datos extraídos en el Excel
         for row_dict in rows_data:
             for col_idx, h in enumerate(headers, start=1):
                 if not h:
@@ -569,9 +551,7 @@ def process_all():
                 except:
                     ws.cell(row=current_row, column=col_idx, value=v)
             current_row += 1
-       
 
-    # 6. Guardar el archivo Excel procesado
     save_path = filedialog.asksaveasfilename(
         defaultextension=".xlsx", filetypes=[("Archivos Excel", "*.xlsx")]
     )
@@ -584,21 +564,18 @@ def process_all():
     else:
         messagebox.showwarning("Cancelado", "No se guardó el archivo.")
     
-    # Restablecer el botón y destruir la ventana de espera
     generate_btn.configure(state="normal")
     waiting.destroy()
 
 # ────────────── FUNCIONES PARA BOTONES "ABOUT" Y "SETTINGS" ──────────────
 
 def GENERATE():
-    # Solo deshabilita y vuelve a habilitar el botón
     generate_btn.configure(state="disabled")
     generate_btn.configure(state="normal")
 
 
 def handle_btn_press(option):
     if option == "about":
-        # Mostramos la mini ventana de instrucciones
         instrucciones = (
             "1. Para extraer información de una DIM solo debes cargar un archivo y presionar 'Generar Reporte Excel'.\n\n"
             "2. En caso de cambiar el informe a uno que tenga tu propio formato, presiona el botón de engranaje y podrás editar el archivo mosol predefinido.\n\n"
@@ -610,9 +587,9 @@ def handle_btn_press(option):
         
     elif option == "settings":
      
-        folder_path = os.path.join(OUTPUT_PATH, "mosol")# o, si solo deseas la carpeta del mosol.xlsx, podrías usar os.path.dirname(...)
+        folder_path = os.path.join(OUTPUT_PATH, "mosol")
         try:
-            os.startfile(folder_path)  # Funciona en Windows
+            os.startfile(folder_path)  
             
         except Exception as e:
             messagebox.showerror("Error", f"No se pudo abrir la carpeta: {e}")
@@ -633,7 +610,13 @@ def handle_btn_press(option):
 
     elif option == "generate":
         try:
+            start_time = time.time()   
             process_all()
+            end_time = time.time()    
+
+            elapsed_time = end_time - start_time
+            print(f"Tiempo de ejecución : {elapsed_time:.2f} segundos")
+
             generate_button_image.configure(file=relative_to_assets("button_1.png"))
         except Exception as e:
             messagebox.showerror("Error", str(e))
@@ -653,7 +636,6 @@ canvas = Canvas(
 )
 canvas.place(x=0, y=0)
 
-# Botón About
 button_image_3 = PhotoImage(file=relative_to_assets("button_3.png"))
 button_3 = Button(
     image=button_image_3,
@@ -668,7 +650,6 @@ button_3.place(x=20.0, y=21.0, width=30.0, height=30.0)
 image_image_6 = PhotoImage(file=relative_to_assets("image_6.png"))
 canvas.create_image(225.0, 37.0, image=image_image_6)
 
-# Botón Settings
 button_image_4 = PhotoImage(file=relative_to_assets("button_4.png"))
 button_4 = Button(
     image=button_image_4,
@@ -682,8 +663,6 @@ button_4 = Button(
 button_4.place(x=400.0, y=21.0, width=30.0, height=30.0)
 image_image_5 = PhotoImage(file=relative_to_assets("image_5.png"))
 canvas.create_image(224.5, 137.5, image=image_image_5)
-
-# Campo principal para seleccionar PDFs
 entry_image_1 = PhotoImage(file=relative_to_assets("entry_1.png"))
 canvas.create_image(210.0, 138.0, image=entry_image_1)
 output_entry = Entry(canvas, bd=0, bg="#2D2D2D", fg="#FFFFFF", highlightthickness=0)
@@ -719,7 +698,6 @@ canvas.create_text(
     font=("Roboto Regular", 14 * -1)
 )
 
-# Botón toggle para el Excel (mosol)
 toggle_btn = Button(
     image=toggle_img,
     activebackground="#202020",
@@ -730,7 +708,6 @@ toggle_btn = Button(
 )
 toggle_btn.place(x=27.0, y=175.0)
 
-# Elementos (imagen y fondo de entrada) para el archivo Excel seleccionable (inicialmente ocultos)
 image_image_7 = PhotoImage(file=relative_to_assets("image_5.png"))
 image_7 = canvas.create_image(224.5, 237.5, image=image_image_7)
 entry_image_7 = PhotoImage(file=relative_to_assets("entry_1.png"))
@@ -751,7 +728,6 @@ button_7.place_forget()
 canvas.itemconfigure(image_7, state="hidden")
 canvas.itemconfigure(entry_bg_7, state="hidden")
 
-# Botón grande de "Generar/Procesar Todo"
 generate_button_image = PhotoImage(file=relative_to_assets("button_1.png"))
 generate_btn = Button(
     image=generate_button_image,

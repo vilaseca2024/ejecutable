@@ -143,8 +143,6 @@ def extraer_campos_pdf(ruta_pdf):
 
     campos = []
     sublevel_ids = {'H8.', 'E1.', 'I2.'}
-
-    # Procesamiento de cada bloque
     for id_actual, bloque in matches:
         lines = [l.strip() for l in bloque.splitlines() if l.strip()]
         if not lines:
@@ -161,7 +159,6 @@ def extraer_campos_pdf(ruta_pdf):
                 if re.match(r'^(Liquidación|Tipo|Sub totales)', line_stripped):
                     continue
 
-                # Buscar líneas que comienzan con GA, IVA o IDHE como prefijo
                 if line_stripped.startswith("GA"):
                     valor = line_stripped.split()[-1]
                     campos.append({
@@ -186,8 +183,6 @@ def extraer_campos_pdf(ruta_pdf):
                         'valor': valor
                     })
                     continue
-
-                # Total para G.
                 if id_actual == 'G.' and line_stripped.startswith('Total tributos a pagar'):
                     parts = line_stripped.split()
                     campos.append({
@@ -196,8 +191,6 @@ def extraer_campos_pdf(ruta_pdf):
                         'valor': parts[-1]
                     })
             continue
-
-
 
         if id_actual in sublevel_ids:
             base = id_actual.rstrip('.')

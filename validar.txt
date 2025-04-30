@@ -1,465 +1,113 @@
-A0. => Embarque Codigo  =>  MIQOIAH003223
 A. => Identificación de la Declaración  =>  
-A1. => N° de declaración  =>  DI-2025-543-2029523
-A2. => Fecha de aceptación  =>  31/01/2025 09:59
-A3. => N° de referencia  =>  0107-25
-A4. => Aduana de despacho  =>  543 - FRONTERA AVAROA
+A1. => N de declaración  =>  DI-2025-711-2112975
+A2. => Fecha de aceptación  =>  24/04/2025 10:53
+A3. => N de referencia  =>  0899-25
+A4. => Aduana de despacho  =>  711 - AEROPUERTO VIRU VIRU
 A5. => Destino/Régimen aduanero  =>  40 - IMPORTACION PARA EL CONSUMO
 A6. => Modalidad del régimen  =>  4000 - GENERAL
 A7. => Modalidad de despacho  =>  01 - GENERAL
 A8. => Tratamiento especial  =>  TRATAMIENTO COMUN
 A9. => Plazo  =>  
-A10. => N° documento asociado  =>  DAM-2025-1342
-A10.1. => N° Parte de Recepción  =>  PRM-2025-543-28011
+A10. => N documento asociado  =>  
+A10.1. => N Parte de Recepción  =>  PRM-2025-711-22134
 A11. => Forma de envío  =>  02 - ENVIO TOTAL
 A12. => Tipo de despacho  =>  02 - DESPACHO TOTAL
 A13. => Número carpeta  =>  
-B. => Operadores  =>  Datos Tipo de documento N° de documento Nombre/Razón social Categoría *Domicilio, Ciudad, País, Teléfono, Fax, Correo Electrónico
+B. => Operadores  =>  Datos Tipo de documento N de documento Nombre/Razón social Categoría *Domicilio, Ciudad, País, Teléfono, Fax, Correo Electrónico
 B1.TIPO => Tipo de Documento  =>  NIT
-B1.NUMERO => Nro. de documento  =>  1020415021
-B1.NOMBRE => Nombre/Razón social  =>  MINERA SAN CRISTOBAL
-B1.CATEGORIA => Categoría  =>  OEA
-B1.DOMICILIO => Domicilio  =>  TARIJA, 12, ZONA CENTRAL, POTOSÍ, POTOSI, BOLIVIA, 2153777, 2153777,
+B1.NUMERO => Nro. de documento  =>  1020229024
+B1.NOMBRE => Nombre/Razón social  =>  CERVECERIA BOLIVIANA NACIONAL
+B1.CATEGORIA => Categoría  =>  
+B1.DOMICILIO => Domicilio  =>  -CHUQUISACA, 121, CHALLAPAMPA, LA PAZ, LA PAZ, BOLIVIA, 2455455, adgarcia@cbn.com.bo
 B2.TIPO => Tipo de Documento  =>  NIT
 B2.NUMERO => Nro. de documento  =>  1000899025
 B2.NOMBRE => Nombre/Razón social  =>  VILASECA S.A. AGENCIA DESPACHANTE DE ADUANA
 B2.CATEGORIA => Categoría  =>  OEA
 B2.DOMICILIO => Domicilio  =>  MERCADO, 1328, CENTRAL, LA PAZ, LA PAZ, BOLIVIA, 2202077, 2201860,
 C. => Lugares  =>  
-C1. => País de exportación  =>  US - ESTADOS UNIDOS
-C2. => Lugar de embarque  =>  USHOU - HOUSTON - TEXAS
-C3. => Fecha de embarque  =>  09/12/2024
-C4. => País de procedencia  =>  US - ESTADOS UNIDOS
-C5. => País de tránsito  =>  CL - CHILE
-C6. => Aduana de ingreso  =>  543 - FRONTERA AVAROA
-C7. => Departamento de destino  =>  PT - POTOSI
-C8. => Localidad de destino  =>  BOPOI - POTOSÍ
+C1. => País de exportación  =>  GT - GUATEMALA
+C2. => Lugar de embarque  =>  GTGUA - GUATEMALA CITY
+C3. => Fecha de embarque  =>  15/01/2025
+C4. => País de procedencia  =>  GT - GUATEMALA
+C5. => País de tránsito  =>  
+C6. => Aduana de ingreso  =>  711 - AEROPUERTO VIRU VIRU
+C7. => Departamento de destino  =>  SZ - SANTA CRUZ
+C8. => Localidad de destino  =>  BOSCS - SANTA CRUZ DE LA SIERRA
 D. => Transporte  =>  
-D1. => Modalidad de transporte hasta frontera  =>  3 - TRANSPORTE CARRETERO
-D2. => Modalidad de transporte desde frontera  =>  3 - TRANSPORTE CARRETERO
+D1. => Modalidad de transporte hasta frontera  =>  5 - POSTAL O COURIER
+D2. => Modalidad de transporte desde frontera  =>  4 - TRANSPORTE AÉREO
 D3. => Carga peligrosa  =>  NO
 F. => Totales para control de la Declaración  =>  
-F1. => Total N° Facturas  =>  5
-F2. => Total N° de Items  =>  16
-F3. => Total N° de bultos  =>  20
-F4. => Total peso bruto (kg)  =>  13227.66
-F5. => Total peso neto (kg)  =>  12342,96
-F6. => Total valor FOB (USD)  =>  194695,68
-F7. => Gastos Trans hasta el lugar de importación (USD)  =>  6241.98
-F8. => Total costo del seguro (USD)  =>  283.3
-F9. => Gastos de carga, descarga, manipuleo y otros gastos (USD)  =>  2,346
-F10. => Total valor CIF aduana (BOB)  =>  1416826
+F1. => Total N Facturas  =>  1
+F2. => Total N de Items  =>  1
+F3. => Total N de bultos  =>  1
+F4. => Total peso bruto (kg)  =>  1.8
+F5. => Total peso neto (kg)  =>  1,4
+F6. => Total valor FOB (USD)  =>  792,96
+F7. => Gastos Trans hasta el lugar de importación (USD)  =>  22.07
+F8. => Total costo del seguro (USD)  =>  15.8592
+F9. => Gastos de carga, descarga, manipuleo y otros gastos (USD)  =>  0
+F10. => Total valor CIF aduana (BOB)  =>  5783
 G. => Observaciones generales de la declaración  =>  Liquidación total de tributos, exoneraciones, suspensiones u otros cargos ( Expresado en bolivianos )
-G.GA => GA  =>  138368
-G.IVA => IVA  =>  232345
-G.TOTAL => Total tributos a pagar  =>  370713
-E. => Información y valores totales de la factura Factura 1 de 5  =>  
-E1. => Datos del Proveedor  =>  WEIR ESCO, NW 25 TH PO BOX 10123, 2141, PORTLAND - OREGON, ESTADOS UNIDOS, (1)5032282141, sebastian.gomez@mail.weir
-E1.1 => Categoría  =>  -
-E1.2 => Condición del proveedor  =>  
-E1.2 => - DISTRIBUIDOR  =>  
-E2. => País de adquisición  =>  US - ESTADOS UNIDOS
-E3. => N° de la factura  =>  33046896
-E4. => Fecha de la factura  =>  23/10/2024
-E5. => Condición de entrega (INCOTERMS)  =>  EXW - EN FABRICA (LUGAR CONVENIDO)
-E6. => Lugar de entrega (INCOTERMS)  =>  SALT LAKE CITY - USA
+G.GA => GA  =>  578
+G.IVA => IVA  =>  950
+G.TOTAL => Total tributos a pagar  =>  1528
+E. => Información y valores totales de la factura Factura 1 de 1  =>  
+E1. => Datos del Proveedor  =>  MANUEL SANMARTINA., RTA 5 KM 101, S/N, BUENOS AIRES, ARGENTINA, (54)2324647165, maria.molina@grupo- sanmartin.com
+A. => , RTA 5 KM 101, S/N, BUENOS AIRES, ARGENTINA, (54)2324647165, maria.molina@grupo-  =>  sanmartin.com
+E2. => País de adquisición  =>  GT - GUATEMALA
+E3. => N de la factura  =>  00006-00001059
+E4. => Fecha de la factura  =>  07/11/2024
+E5. => Condición de entrega (INCOTERMS)  =>  FCA - FRANCO TRANSPORTISTA - LIBRE
+E6. => Lugar de entrega (INCOTERMS)  =>  BUENOS AIRES
 E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
 E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
-E9. => Valor de transacción  =>  9281.0
+E9. => Valor de transacción  =>  792.96
 E10. => T/C moneda de transacción  =>  
 E11. => Destino de la mercancía  =>  01 - USO O CONSUMO PROPIO
 E12. => Factura sujeta a descuento  =>  NO
 E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
 E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
-E15. => Valor FOB total (USD)  =>  9503.5
+E15. => Valor FOB total (USD)  =>  792.96
 E16. => Tipo de cambio (USD-BOB)  =>  6.96
-E17. => Total valor FOB (BOB)  =>  66144
-E23. => Valor CIF aduana total (BOB)  =>  69158
+E17. => Total valor FOB (BOB)  =>  5519
+E23. => Valor CIF aduana total (BOB)  =>  5783
 E24. => Otras erogaciones (USD)  =>  0.0
 K. => Actuaciones  =>  Declarante Aduana Código de seguridad 
 H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  1
+H1. => N ítem  =>  1
 H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  7318240000
+H3. => Subpartida arancelaria  =>  8422900000
 H4. => Cod. Complementario  =>  
 H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Pasadores y chavetas
-H6. => Unidad física  =>  KILOGRAMO
-H7. => Cantidad física  =>  116.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  PASADOR
-H8.3 => Marca comercial  =>  POSILOK
-H8.4 => Tipo  =>  REVESTIDO
-H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  5118181 - PN92K
-H8.7 => Cuantitativo 1  =>  110 MM, 5.8 PULG X 1.5 PULG
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  100 UNIDADES EN 1 CAJA
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001704, CLR COAT
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  100.0
-H11. => Precio unitario (USD)  =>  92.81
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  1
-H17. => Peso Neto (kg)  =>  116.0
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  9281.0
-I2. => Valor FOB del ítem (USD)  =>  9503.5
-I2.1 => Valor FOB unitario (USD)  =>  95.035
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  304.68
-I4. => Costo seguro ítem (USD)  =>  13.83
-I5. => Gastos portuarios (USD)  =>  2.2453554178
-I6. => Otros Gastos (USD)  =>  112.26777089
-I7. => Valor CIF ítem aduana (USD)  =>  9936.53
-I8. => Valor CIF ítem aduana (BOB)  =>  69158
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001704
-J.GA => GA  =>  6916
-J.IVA => IVA  =>  11365
-E. => Información y valores totales de la factura Factura 2 de 5  =>  
-E1. => Datos del Proveedor  =>  WEIR ESCO, NW 25 TH PO BOX 10123, 2141, PORTLAND - OREGON, ESTADOS UNIDOS, (1)5032282141, sebastian.gomez@mail.weir
-E1.1 => Categoría  =>  -
-E1.2 => Condición del proveedor  =>  
-E1.2 => - DISTRIBUIDOR  =>  
-E2. => País de adquisición  =>  US - ESTADOS UNIDOS
-E3. => N° de la factura  =>  33046858
-E4. => Fecha de la factura  =>  31/10/2024
-E5. => Condición de entrega (INCOTERMS)  =>  EXW - EN FABRICA (LUGAR CONVENIDO)
-E6. => Lugar de entrega (INCOTERMS)  =>  NEWTON - USA
-E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
-E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
-E9. => Valor de transacción  =>  155169.48
-E10. => T/C moneda de transacción  =>  
-E11. => Destino de la mercancía  =>  01 - USO O CONSUMO PROPIO
-E12. => Factura sujeta a descuento  =>  NO
-E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
-E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
-E15. => Valor FOB total (USD)  =>  158889.21
-E16. => Tipo de cambio (USD-BOB)  =>  6.96
-E17. => Total valor FOB (BOB)  =>  1105869
-E23. => Valor CIF aduana total (BOB)  =>  1156258
-E24. => Otras erogaciones (USD)  =>  0.0
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  2
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8431490000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Las demás
+Arancel => Descripción arancelaria  =>  - Partes
 H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  12.0
+H7. => Cantidad física  =>  1027.0
 H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
 H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  ADAPTADOR PUENTE - PORTA UÑA
-H8.3 => Marca comercial  =>  NEMISYS
-H8.4 => Tipo  =>  REPUESTO
-H8.5 => Clase  =>  PARA PALA DE EXCAVADORA
-H8.6 => Modelo  =>  4217771 - N7-S145H
-H8.7 => Cuantitativo 1  =>  145 MM
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.12 => UNIDADES EN 5 BULTOS  =>  
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001622, BRIDGE ADAPTER; ESCO GRN
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  12.0
-H11. => Precio unitario (USD)  =>  4974.34
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  5
-H17. => Peso Neto (kg)  =>  3386.0
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  59692.08
-I2. => Valor FOB del ítem (USD)  =>  61123.02
-I2.1 => Valor FOB unitario (USD)  =>  5093.585
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  1959.62
-I4. => Costo seguro ítem (USD)  =>  88.94
-I5. => Gastos portuarios (USD)  =>  14.4413010074
-I6. => Otros Gastos (USD)  =>  722.0650503716
-I7. => Valor CIF ítem aduana (USD)  =>  63908.08
-I8. => Valor CIF ítem aduana (BOB)  =>  444801
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001622
-J.GA => GA  =>  44480
-J.IVA => IVA  =>  73099
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  3
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8431490000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Las demás
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  60.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  DIENTE - UÑA MAS SEGURO
-H8.3 => Marca comercial  =>  NEMISYS
-H8.4 => Tipo  =>  REPUESTO
-H8.5 => Clase  =>  PARA UÑA DE PALA EXCAVADORA
-H8.6 => Modelo  =>  4213212 - N7S
-H8.7 => Cuantitativo 1  =>  
-H8.12 => PULGADAS  =>  
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  60 UNIDADES EN 11 BULTOS
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001622, POINT:ESCO GRN
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  60.0
-H11. => Precio unitario (USD)  =>  1591.29
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  11
-H17. => Peso Neto (kg)  =>  7873.0
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  95477.4
-I2. => Valor FOB del ítem (USD)  =>  97766.19
-I2.1 => Valor FOB unitario (USD)  =>  1629.436
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  3134.4
-I4. => Costo seguro ítem (USD)  =>  142.26
-I5. => Gastos portuarios (USD)  =>  23.0988419458
-I6. => Otros Gastos (USD)  =>  1154.9420972884
-I7. => Valor CIF ítem aduana (USD)  =>  102220.89
-I8. => Valor CIF ítem aduana (BOB)  =>  711457
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001622
-J.GA => GA  =>  71146
-J.IVA => IVA  =>  116921
-E. => Información y valores totales de la factura Factura 3 de 5  =>  
-E1. => Datos del Proveedor  =>  SYNTRON MATERIAL HANDLING, LLC, NWY 145 SOUTH, 2730, SALTILLO -MISSISSIPPI, ESTADOS UNIDOS, (1)6628697433, orders@syntronmh.com
-E1.1 => Categoría  =>  -
-E1.2 => Condición del proveedor  =>  
-E1.2 => - DISTRIBUIDOR  =>  
-E2. => País de adquisición  =>  US - ESTADOS UNIDOS
-E3. => N° de la factura  =>  402085
-E4. => Fecha de la factura  =>  17/10/2024
-E5. => Condición de entrega (INCOTERMS)  =>  EXW - EN FABRICA (LUGAR CONVENIDO)
-E6. => Lugar de entrega (INCOTERMS)  =>  SALTILLO, MS - USA
-E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
-E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
-E9. => Valor de transacción  =>  8660.56
-E10. => T/C moneda de transacción  =>  
-E11. => Destino de la mercancía  =>  01 - USO O CONSUMO PROPIO
-E12. => Factura sujeta a descuento  =>  NO
-E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
-E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
-E15. => Valor FOB total (USD)  =>  8868.17
-E16. => Tipo de cambio (USD-BOB)  =>  6.96
-E17. => Total valor FOB (BOB)  =>  61722
-E23. => Valor CIF aduana total (BOB)  =>  64535
-E24. => Otras erogaciones (USD)  =>  0.0
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  4
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  7318159000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - - Los demás
-H6. => Unidad física  =>  KILOGRAMO
-H7. => Cantidad física  =>  412.77
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  TORNILLO
-H8.3 => Marca comercial  =>  SYNTRON
-H8.4 => Tipo  =>  REVESTIDO
-H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  200814 / 5021-772-A
-H8.7 => Cuantitativo 1  =>  18 PULG X 24 PULG DIAMETRO X 178-7
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.1 => UNIDAD EN 1 BULTO  =>  
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001667
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  - 
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  1.0
-H11. => Precio unitario (USD)  =>  8660.56
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  1
-H17. => Peso Neto (kg)  =>  412.77
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  8660.56
-I2. => Valor FOB del ítem (USD)  =>  8868.17
-I2.1 => Valor FOB unitario (USD)  =>  8868.17
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  284.32
-I4. => Costo seguro ítem (USD)  =>  12.9
-I5. => Gastos portuarios (USD)  =>  2.0952484432
-I6. => Otros Gastos (USD)  =>  104.76242216
-I7. => Valor CIF ítem aduana (USD)  =>  9272.25
-I8. => Valor CIF ítem aduana (BOB)  =>  64535
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001667
-J.GA => GA  =>  6454
-J.IVA => IVA  =>  10606
-E. => Información y valores totales de la factura Factura 4 de 5  =>  
-E1. => Datos del Proveedor  =>  MPC GLOBAL LTD, DR ROYS DRIVE, 69, GRAND CAYMAN, CAIMÁN, ISLAS, (1)8163994710, lm@mpc-global.com
-E1.1 => Categoría  =>  -
-E1.2 => Condición del proveedor  =>  
-E1.2 => - DISTRIBUIDOR  =>  
-E2. => País de adquisición  =>  KY - CAIMÁN, ISLAS
-E3. => N° de la factura  =>  704051
-E4. => Fecha de la factura  =>  18/10/2024
-E5. => Condición de entrega (INCOTERMS)  =>  EXW - EN FABRICA (LUGAR CONVENIDO)
-E6. => Lugar de entrega (INCOTERMS)  =>  INDIANAPOLIS - USA
-E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
-E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
-E9. => Valor de transacción  =>  14548.22
-E10. => T/C moneda de transacción  =>  
-E11. => Destino de la mercancía  =>  01 - USO O CONSUMO PROPIO
-E12. => Factura sujeta a descuento  =>  NO
-E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
-E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
-E15. => Valor FOB total (USD)  =>  14896.97
-E16. => Tipo de cambio (USD-BOB)  =>  6.96
-E17. => Total valor FOB (BOB)  =>  103683
-E23. => Valor CIF aduana total (BOB)  =>  108407
-E24. => Otras erogaciones (USD)  =>  0.0
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  5
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8484200000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - Juntas mecánicas de estanqueidad
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  2.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  EMPAQUETADURA
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  PLANA
-H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  1351845
-H8.7 => Cuantitativo 1  =>  GROSOR (PULG): 0,03, TAMAÑO DEL ORIFICIO (PULG): 0,43 (11X), 0,39 (2X)
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.2 => UNIDADES EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  METALOPLASTICO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  2.0
-H11. => Precio unitario (USD)  =>  33.36
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.01
-H17. => Peso Neto (kg)  =>  1.96
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  66.72
-I2. => Valor FOB del ítem (USD)  =>  68.32
-I2.1 => Valor FOB unitario (USD)  =>  34.16
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  2.19
-I4. => Costo seguro ítem (USD)  =>  0.1
-I5. => Gastos portuarios (USD)  =>  0.0161417037
-I6. => Otros Gastos (USD)  =>  0.8070851869
-I7. => Valor CIF ítem aduana (USD)  =>  71.43
-I8. => Valor CIF ítem aduana (BOB)  =>  498
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  50
-J.IVA => IVA  =>  82
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  6
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  7412200000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - De aleaciones de cobre
-H6. => Unidad física  =>  KILOGRAMO
-H7. => Cantidad física  =>  1.2
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  ADAPTADOR
-H8.3 => Marca comercial  =>  CATERPILLAR
+H8.2 => Especifique Nombre Mercancia  =>  PUNTERA CANASTO PORTABOTELLAS
+H8.3 => Marca comercial  =>  SANMARTIN
 H8.4 => Tipo  =>  -
 H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  1652138
-H8.7 => Cuantitativo 1  =>  36,70 MM
+H8.6 => Modelo  =>  24-426
+H8.7 => Cuantitativo 1  =>  POS. 0
 H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.3 => UNIDADES EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  BRONCE
+H8.9 => Forma de presentación  =>  1027 UNIDADES EN UNA CAJA DE CARTON
+H8.10 => Material  =>  -
 H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
+H8.11. => 1 Especifique Uso  =>  REPUESTO PARA EQUIPO SANMARTIN
+H8.12 => Otras características  =>  OC 4521348666
 H8.13 => Año modelo  =>  -
 H8.14 => Año fabricación  =>  -
 H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  3.0
-H11. => Precio unitario (USD)  =>  13.64
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
+H10. => Cantidad comercial  =>  1027.0
+H11. => Precio unitario (USD)  =>  0.48
+H12. => País de orígen  =>  AR - ARGENTINA
+H13. => Acuerdo comercial  =>  NA, NO APLICA
+H14. => Tipo de embalaje  =>  CT - CAJA DE CARTON
 H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.01
-H17. => Peso Neto (kg)  =>  1.2
+H16. => Relación Ítem-N de bulto(s)  =>  1
+H17. => Peso Neto (kg)  =>  1.4
 H18. => Estado de la mercancía  =>  NUEVA
 H19. => Resolución RITEX  =>  
 H20. => Código RITEX  =>  
@@ -468,633 +116,27 @@ H22. => Declaración precedente  =>
 H23. => Mod. régimen precedente  =>  
 H24. => Ítem precedente  =>  
 I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  40.92
-I2. => Valor FOB del ítem (USD)  =>  41.9
-I2.1 => Valor FOB unitario (USD)  =>  13.967
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  1.34
-I4. => Costo seguro ítem (USD)  =>  0.06
-I5. => Gastos portuarios (USD)  =>  0.0098995519
-I6. => Otros Gastos (USD)  =>  0.494977597
-I7. => Valor CIF ítem aduana (USD)  =>  43.81
-I8. => Valor CIF ítem aduana (BOB)  =>  304
+I1. => Valor de transacción  =>  492.96
+I2. => Valor FOB del ítem (USD)  =>  792.96
+I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  22.07
+I4. => Costo seguro ítem (USD)  =>  15.86
+I5. => Gastos portuarios (USD)  =>  0.0
+I6. => Otros Gastos (USD)  =>  0.0
+I7. => Valor CIF ítem aduana (USD)  =>  830.89
+I8. => Valor CIF ítem aduana (BOB)  =>  5783
 I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  30
-J.IVA => IVA  =>  50
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  7
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8483309000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Los demás
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  1.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  COJINETE DE BOLAS
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  -
-H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  2029897
-H8.7 => Cuantitativo 1  =>  62 MM DE DIÁMETRO INTERIOR
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.1 => UNIDAD EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  1.0
-H11. => Precio unitario (USD)  =>  46.03
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.01
-H17. => Peso Neto (kg)  =>  1.36
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  46.03
-I2. => Valor FOB del ítem (USD)  =>  47.13
-I2.1 => Valor FOB unitario (USD)  =>  47.13
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  1.51
-I4. => Costo seguro ítem (USD)  =>  0.07
-I5. => Gastos portuarios (USD)  =>  0.0111352239
-I6. => Otros Gastos (USD)  =>  0.556761196
-I7. => Valor CIF ítem aduana (USD)  =>  49.28
-I8. => Valor CIF ítem aduana (BOB)  =>  343
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  17
-J.IVA => IVA  =>  54
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  8
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8431490000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Las demás
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  9.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  PUNTA CRUCIFORME DE PENETRACION
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  REPUESTO
-H8.5 => Clase  =>  PARA PALA DE EXCAVADORA
-H8.6 => Modelo  =>  4679817
-H8.7 => Cuantitativo 1  =>  445 MM DE LARGO
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.9 => UNIDADES EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  9.0
-H11. => Precio unitario (USD)  =>  467.92
-H12. => País de orígen  =>  CN - CHINA
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.28
-H17. => Peso Neto (kg)  =>  123.95
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  4211.28
-I2. => Valor FOB del ítem (USD)  =>  4312.23
-I2.1 => Valor FOB unitario (USD)  =>  479.137
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  138.25
-I4. => Costo seguro ítem (USD)  =>  6.27
-I5. => Gastos portuarios (USD)  =>  1.0188340083
-I6. => Otros Gastos (USD)  =>  50.9417004148
-I7. => Valor CIF ítem aduana (USD)  =>  4508.72
-I8. => Valor CIF ítem aduana (BOB)  =>  31381
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  3138
-J.IVA => IVA  =>  5157
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  9
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8413200000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - Bombas manuales, excepto las de las subpartidas 8413.11 u 8413.19
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  5.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  BOMBA
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  MANUAL
-H8.5 => Clase  =>  EMPUJE
-H8.6 => Modelo  =>  5907889
-H8.7 => Cuantitativo 1  =>  ANCHO: 0.38 CM, ALTURA: 3,000 CM, DIÁMETRO DE ENTRADA: 38 MM
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.5 => UNIDADES EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  METALOPLASTICO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  5.0
-H11. => Precio unitario (USD)  =>  38.13
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.01
-H17. => Peso Neto (kg)  =>  5.61
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  190.65
-I2. => Valor FOB del ítem (USD)  =>  195.22
-I2.1 => Valor FOB unitario (USD)  =>  39.044
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  6.26
-I4. => Costo seguro ítem (USD)  =>  0.28
-I5. => Gastos portuarios (USD)  =>  0.046123879
-I6. => Otros Gastos (USD)  =>  2.3061939484
-I7. => Valor CIF ítem aduana (USD)  =>  204.12
-I8. => Valor CIF ítem aduana (BOB)  =>  1421
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  71
-J.IVA => IVA  =>  223
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  10
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8481909000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Los demás
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  24.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  RESPIRADERO
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  REPUESTO
-H8.5 => Clase  =>  PARA VALVULA
-H8.6 => Modelo  =>  4W3027
-H8.7 => Cuantitativo 1  =>  
-H8.8 => PULGADAS  =>  
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  24 UNIDADES EN 1 PALLET COMPARTIDA
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  24.0
-H11. => Precio unitario (USD)  =>  128.91
-H12. => País de orígen  =>  ZA - SUDÁFRICA
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.21
-H17. => Peso Neto (kg)  =>  91.06
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  3093.84
-I2. => Valor FOB del ítem (USD)  =>  3168.01
-I2.1 => Valor FOB unitario (USD)  =>  132.0
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  101.57
-I4. => Costo seguro ítem (USD)  =>  4.61
-I5. => Gastos portuarios (USD)  =>  0.7484935467
-I6. => Otros Gastos (USD)  =>  37.4246773342
-I7. => Valor CIF ítem aduana (USD)  =>  3312.36
-I8. => Valor CIF ítem aduana (BOB)  =>  23053
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  2305
-J.IVA => IVA  =>  3788
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  11
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  7412200000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - De aleaciones de cobre
-H6. => Unidad física  =>  KILOGRAMO
-H7. => Cantidad física  =>  0.33
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  CODO
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  -
-H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  5P4433
-H8.7 => Cuantitativo 1  =>  ROSCA: 1/4-18 NPTF, 45 GRADOS
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.1 => UNIDAD EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  BRONCE
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  1.0
-H11. => Precio unitario (USD)  =>  11.36
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.01
-H17. => Peso Neto (kg)  =>  0.33
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  11.36
-I2. => Valor FOB del ítem (USD)  =>  11.63
-I2.1 => Valor FOB unitario (USD)  =>  11.63
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  0.37
-I4. => Costo seguro ítem (USD)  =>  0.02
-I5. => Gastos portuarios (USD)  =>  0.0027477755
-I6. => Otros Gastos (USD)  =>  0.137388775
-I7. => Valor CIF ítem aduana (USD)  =>  12.16
-I8. => Valor CIF ítem aduana (BOB)  =>  85
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  9
-J.IVA => IVA  =>  14
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  12
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8483309000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Los demás
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  2.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  COPA
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  REPUESTO
-H8.5 => Clase  =>  DE COJINETE
-H8.6 => Modelo  =>  9D0994
-H8.7 => Cuantitativo 1  =>  381,00 MM, ANCHO: 57,15 MM
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.2 => UNIDADES EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  2.0
-H11. => Precio unitario (USD)  =>  712.26
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.09
-H17. => Peso Neto (kg)  =>  41.92
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  1424.52
-I2. => Valor FOB del ítem (USD)  =>  1458.67
-I2.1 => Valor FOB unitario (USD)  =>  729.335
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  46.77
-I4. => Costo seguro ítem (USD)  =>  2.12
-I5. => Gastos portuarios (USD)  =>  0.3446343547
-I6. => Otros Gastos (USD)  =>  17.2317177375
-I7. => Valor CIF ítem aduana (USD)  =>  1525.13
-I8. => Valor CIF ítem aduana (BOB)  =>  10614
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  531
-J.IVA => IVA  =>  1665
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  13
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  3919100000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - En rollos de anchura inferior o igual a 20 cm
-H6. => Unidad física  =>  KILOGRAMO
-H7. => Cantidad física  =>  20.73
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  CINTA ADHESIVA
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  ROLLO
-H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  9U6910
-H8.7 => Cuantitativo 1  =>  2-1/2\"X 50 YD
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  20 UNIDADES EN 1 PALLET COMPARTIDA
-H8.10 => Material  =>  PAPEL ALUMINIO, MATERIAL ADHESIVO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  20.0
-H11. => Precio unitario (USD)  =>  35.21
-H12. => País de orígen  =>  US - ESTADOS UNIDOS
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.04
-H17. => Peso Neto (kg)  =>  20.73
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  704.2
-I2. => Valor FOB del ítem (USD)  =>  721.08
-I2.1 => Valor FOB unitario (USD)  =>  36.054
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  23.12
-I4. => Costo seguro ítem (USD)  =>  1.05
-I5. => Gastos portuarios (USD)  =>  0.1703668002
-I6. => Otros Gastos (USD)  =>  8.5183400096
-I7. => Valor CIF ítem aduana (USD)  =>  753.94
-I8. => Valor CIF ítem aduana (BOB)  =>  5247
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  525
-J.IVA => IVA  =>  862
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  14
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8483309000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Los demás
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  2.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  COJINETE
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  DE CONO
-H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  9W7095
-H8.7 => Cuantitativo 1  =>  DIÁMETRO INTERIOR: 231,775 MM, ANCHO: 71,438 MM
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.2 => UNIDADES EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  2.0
-H11. => Precio unitario (USD)  =>  1769.71
-H12. => País de orígen  =>  IN - INDIA
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.24
-H17. => Peso Neto (kg)  =>  104.18
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  3539.42
-I2. => Valor FOB del ítem (USD)  =>  3624.27
-I2.1 => Valor FOB unitario (USD)  =>  1812.135
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  116.19
-I4. => Costo seguro ítem (USD)  =>  5.27
-I5. => Gastos portuarios (USD)  =>  0.8562923432
-I6. => Otros Gastos (USD)  =>  42.8146171592
-I7. => Valor CIF ítem aduana (USD)  =>  3789.41
-I8. => Valor CIF ítem aduana (BOB)  =>  26375
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  1319
-J.IVA => IVA  =>  4137
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  15
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8483309000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Los demás
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  2.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  TAZA
-H8.3 => Marca comercial  =>  CATERPILLAR
-H8.4 => Tipo  =>  REPUESTO
-H8.5 => Clase  =>  DE COJINETE
-H8.6 => Modelo  =>  9W7096
-H8.7 => Cuantitativo 1  =>  DIÁMETRO EXTERIOR: 358,775 MM, ANCHO: 53,975 MM
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.2 => UNIDADES EN 1 PALLET COMPARTIDA  =>  
-H8.10 => Material  =>  ACERO
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001775
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  2.0
-H11. => Precio unitario (USD)  =>  609.64
-H12. => País de orígen  =>  IN - INDIA
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  0.09
-H17. => Peso Neto (kg)  =>  35.89
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  1219.28
-I2. => Valor FOB del ítem (USD)  =>  1248.51
-I2.1 => Valor FOB unitario (USD)  =>  624.255
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  40.03
-I4. => Costo seguro ítem (USD)  =>  1.82
-I5. => Gastos portuarios (USD)  =>  0.2949806595
-I6. => Otros Gastos (USD)  =>  14.7490329714
-I7. => Valor CIF ítem aduana (USD)  =>  1305.4
-I8. => Valor CIF ítem aduana (BOB)  =>  9086
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001775
-J.GA => GA  =>  454
-J.IVA => IVA  =>  1425
-E. => Información y valores totales de la factura Factura 5 de 5  =>  
-E1. => Datos del Proveedor  =>  REXNORD INDUSTRIES, LLC, PUMPHREY AVE, 1600, AUBURN -ALABAMA, ESTADOS UNIDOS, (1)4146432366, international1@rexnord.com
-E1.1 => Categoría  =>  -
-E1.2 => Condición del proveedor  =>  
-E1.2 => - DISTRIBUIDOR  =>  
-E2. => País de adquisición  =>  US - ESTADOS UNIDOS
-E3. => N° de la factura  =>  96195787
-E4. => Fecha de la factura  =>  23/10/2024
-E5. => Condición de entrega (INCOTERMS)  =>  EXW - EN FABRICA (LUGAR CONVENIDO)
-E6. => Lugar de entrega (INCOTERMS)  =>  AUBURN, AL - USA
-E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
-E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
-E9. => Valor de transacción  =>  2478.42
-E10. => T/C moneda de transacción  =>  
-E11. => Destino de la mercancía  =>  01 - USO O CONSUMO PROPIO
-E12. => Factura sujeta a descuento  =>  NO
-E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
-E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
-E15. => Valor FOB total (USD)  =>  2537.83
-E16. => Tipo de cambio (USD-BOB)  =>  6.96
-E17. => Total valor FOB (BOB)  =>  17663
-E23. => Valor CIF aduana total (BOB)  =>  18468
-E24. => Otras erogaciones (USD)  =>  0.0
-H. => Identificación de la mercancía por ítem  =>  
-H1. => N° ítem  =>  16
-H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8483609000
-H4. => Cod. Complementario  =>  
-H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - - Los demás
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  1.0
-H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
-H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  ACOPLE
-H8.3 => Marca comercial  =>  FALK
-H8.4 => Tipo  =>  -
-H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  1130T10-R-R
-H8.7 => Cuantitativo 1  =>  18 X 16 PULG, 220 MM
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  
-H8.1 => UNIDAD EN 1 CAJA  =>  
-H8.10 => Material  =>  ACERO AL CARBON
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  USO EN MINERA
-H8.12 => Otras características  =>  OI 23001388
-H8.13 => Año modelo  =>  -
-H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  1.0
-H11. => Precio unitario (USD)  =>  2478.42
-H12. => País de orígen  =>  CN - CHINA
-H13. => Acuerdo comercial  =>  
-H14. => Tipo de embalaje  =>  BN - BULTO, PACA O FARDO NO COMPRIMIDO
-H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N° de bulto(s)  =>  1
-H17. => Peso Neto (kg)  =>  127.0
-H18. => Estado de la mercancía  =>  NUEVA
-H19. => Resolución RITEX  =>  
-H20. => Código RITEX  =>  
-H21. => Cantidad RITEX  =>  
-H22. => Declaración precedente  =>  
-H23. => Mod. régimen precedente  =>  
-H24. => Ítem precedente  =>  
-I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  2478.42
-I2. => Valor FOB del ítem (USD)  =>  2537.83
-I2.1 => Valor FOB unitario (USD)  =>  2537.83
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  81.36
-I4. => Costo seguro ítem (USD)  =>  3.69
-I5. => Gastos portuarios (USD)  =>  0.5996033392
-I6. => Otros Gastos (USD)  =>  29.98016696
-I7. => Valor CIF ítem aduana (USD)  =>  2653.47
-I8. => Valor CIF ítem aduana (BOB)  =>  18468
-I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  OI 23001388
-J.GA => GA  =>  923
-J.IVA => IVA  =>  2897
+J. => Información adicional del Ítem  =>  
+J.GA => GA  =>  578
+J.IVA => IVA  =>  950
 L. => Documentos de la Declaración  =>  
-L1. => Documentos soporte  =>  N° Tipo documento Número Emisor Fecha emisiónMonto Ítems asociados Estado doc. Ver 1BILL OF LADING (BL) - CONOCIMIENTO DE EMBARQUE MARÍTIMOMIQOIAH003223 NOATUM LOGISTICS CHILE LIMITADA 09/12/2024  1 AL 16 ORIGINAL Ver 2FACTURA COMERCIAL 33046896 WEIR ESCO 23/10/2024 USD 9281 1 ORIGINAL Ver 3LISTA DE EMPAQUE 33046858 WEIR ESCO 31/10/2024  2 AL 3 ORIGINAL Ver 4FACTURA COMERCIAL 33046858 WEIR ESCO 31/10/2024 USD 155169.48 2 AL 3 ORIGINAL Ver 5FACTURA COMERCIAL 402085 SYNTRON MATERIAL HANDLING, LLC 17/10/2024 USD 8660.56 4 ORIGINAL Ver 6LISTA DE EMPAQUE S/N MPC GLOBAL LTD 18/10/2024  5 AL 15 ORIGINAL Ver 7FACTURA COMERCIAL 704051 MPC GLOBAL LTD 18/10/2024 USD 14548.22 5 AL 15 ORIGINAL Ver 8FACTURA COMERCIAL 96195787 REXNORD INDUSTRIES, LLC 23/10/2024 USD 2478.42 16 ORIGINAL Ver 9LISTA DE EMPAQUE 33046896 WEIR ESCO 17/10/2024  1 ORIGINAL Ver 10LISTA DE EMPAQUE 202093 SYNTRON MATERIAL HANDLING 29/10/2024  4 ORIGINAL Ver 
-L. => Documentos de la Declaración  =>  
-L1. => Documentos soporte  =>  N° Tipo documento Número Emisor Fecha emisiónMonto Ítems asociados Estado doc. Ver 11LISTA DE EMPAQUE 96195787 REXNORD INDUSTRIES LLC 23/10/2024  16 ORIGINAL Ver 12POLIZA DE  SEGURO LPM0211144 (D1001/2024)SEGUROS Y REASEGUROS CREDINFORM INTERNATIONAL
-A. => 22/10/2024 USD 9281 1 ORIGINAL Ver  =>  13FACTURA DE TRANSPORTE 8 TRADECO
-L. => 28/01/2025 BOB 23982 1 AL 16 COPIA Ver  =>  14DOCUMENTO DE CARGOS PORTUARIOS V-1325116 ASPB 28/01/2025 USD 46 1 AL 16 ORIGINAL Ver 15DECLARACION ANDINA DE VALOR (DAV) 2511023 MINERA SAN CRISTOBAL
-A. => 31/01/2025  1 ORIGINAL Ver  =>  16PARTE DE RECEPCIÓN DE MERCANCÍAS (PRM)PRM-2025-543-28011 ALMACENERA BOLIVIANA
-A. => 29/01/2025  1 AL 16 ORIGINAL Ver  =>  17CARTA DE PORTE INTERNACIONAL POR CARRETERA (CRT)TRA012/25 EMPRESA DE TRANSPORTE TRADECO
-L. => 23/01/2025  1 AL 16 ORIGINAL Ver  =>  18POLIZA DE  SEGURO LPM0212002 (D1096/2024)SEGUROS Y REASEGUROS CREDINFORM INTERNATIONAL
-A. => 30/10/2024 USD 155169.48 2 AL 3 ORIGINAL Ver  =>  19POLIZA DE  SEGURO LPM0212498 (D1132/2024)SEGUROS Y REASEGUROS CREDINFORM INTERNATIONAL
-A. => 17/10/2024 USD 8660.56 4 ORIGINAL Ver  =>  20POLIZA DE  SEGURO LPM0211986 (D1088/2024)SEGUROS Y REASEGUROS CREDINFORM INTERNATIONAL
-A. => 18/10/2024 USD 14548.22 5 AL 15 ORIGINAL Ver  =>  21POLIZA DE  SEGURO LPM0211976 (D1087/2024)SEGUROS Y REASEGUROS CREDINFORM INTERNATIONAL
-A. => 23/10/2024 USD 2478.42 16 ORIGINAL Ver  =>  22OTRO OI 23001704 MINERA SAN CRISTOBAL
-A. => 04/09/2024  1 FOTOCOPIA  =>  SIMPLEVer 23OTRO OI 23001622 MINERA SAN CRISTOBAL
-A. => 20/08/2024  2 AL 3 FOTOCOPIA  =>  SIMPLEVer 24OTRO OI 23001667 MINERA SAN CRISTOBAL
-A. => 29/08/2024  4 FOTOCOPIA  =>  SIMPLEVer 25OTRO OI 23001775 MINERA SAN CRISTOBAL
-A. => 19/09/2024  5 AL 15 FOTOCOPIA  =>  SIMPLEVer 26OTRO OI 23001388 MINERA SAN CRISTOBAL
-A. => 01/07/2024  16 FOTOCOPIA  =>  SIMPLEVer 27DECLARACIÓN ANDINA DEL VALOR (DAV) 2511025 MINERA SAN CRISTOBAL
-A. => 31/01/2025  2 AL 3 ORIGINAL Ver  =>  28DECLARACIÓN ANDINA DEL VALOR (DAV) 2511026 MINERA SAN CRISTOBAL
-A. => 31/01/2025  4 ORIGINAL Ver  =>  29DECLARACIÓN ANDINA DEL VALOR (DAV) 2511027 MINERA SAN CRISTOBAL
-A. => 31/01/2025  5 AL 15 ORIGINAL Ver  =>  30DECLARACIÓN ANDINA DEL VALOR (DAV) 2511028 MINERA SAN CRISTOBAL
-A. => 31/01/2025  16 ORIGINAL Ver  =>  
-M. => Información adicional  =>  SEÑOR ADMINISTRADOR: ----- INDICARLE QUE, EL IMPORTADOR SE SUJETA A LO DISPUESTO EN EL AR
+L1. => Documentos soporte  =>  N Tipo documento Número Emisor Fecha emisiónMonto Ítems asociados Estado doc. Ver 1FACTURA COMERCIAL 00006-00001059 MANUEL SANMARTIN
+A. => 07/11/2024 USD 792.96 1 ORIGINAL Ver  =>  2GUÍA COURIER 6484446651 DHL 23/04/2025  1 ORIGINAL Ver 3PARTE DE RECEPCIÓN DE MERCANCÍAS (PRM)PRM-2025-711-22134 ALMACENERA BOLIVIANA
+A. => 23/01/2025  1 ORIGINALVer  =>  4Certificado flete de transporte 6484446651 DHL EXPRESS 23/04/2025   ORIGINAL Ver 5OTRO AN/GRSZ/AVV/ RESADM/ 409/2025ADUANA NACIONAL 24/03/2025  1 FOTOCOPIA SIMPLEVer
+M. => Información adicional  =>  SEÑOR ADMINISTRADOR: INDICARLE QUE, EL IMPORTADOR SE SUJETA A LO DISPUESTO EN EL AR
 T. => 143 DE LA LGA N  =>  
-O. => 1990 DE 28/07/1990. EL DESPACHANTE Y AGENCIA DESPACHANTE DE ADUANAS INTERVINIENTES, NO ASUMEN LA  =>  OBLIGACION, NI RESPONSABILIDAD ALGUNA EN LA DETERMINACION DEL VALOR EN ADUANA, EN APLICACION DE LOS ARTICULOS 48,74 Y 183 DE LA LGA Y SU AR
+O. => 1990 DE 28/07/1990. EL  =>  DESPACHANTE Y AGENCIA DESPACHANTE DE ADUANAS INTERVINIENTES, NO ASUMEN LA OBLIGACION, NI RESPONSABILIDAD ALGUNA EN LA DETERMINACION DEL VALOR EN ADUANA, EN APLICACION DE LOS ARTICULOS 48,74 Y 183 DE LA LGA Y SU AR
 T. => 249 DEL RLG  =>  
-A. => - NOS AMPARAMOS EN EL AR  =>  
-T. => 124 INCISO (B DEL RGLA PARA LAS FACTURAS COMERCIALES DECLARADAS EN EL PRESENTE DESPACH  =>  
-O. => -----  =>  PARA EFECTOS DE LA LIQUIDACION DE TRIBUTOS: - PARA EL VALOR FOB, SE TOMA LA SUMA DE LAS FACTURAS COMERCIALES, MAS EL FLETE INTERNO DECLARADO EN EL B
-L. => - PARA EL FLETE MARITIMO, SE TOMA DEL B  =>  
-L. => - PARA EL FLETE TERRESTRE, SE TOMA EL VALOR HASTA FRONTERA DE LA FACTURA DE TRANSPORT  =>  
-E. => - PARA EL SEGURO, SE TOMA LA SUMA DE LAS PRIMAS DE LAS POLIZAS DE SEGUR  =>  
-O. => - PARA GASTO PUERTO, SE TOMA DE LA PLANILLA DE ASP  =>  
-B. => - PARA OTROS GASTOS SE TOMA DEL B  =>  
-L. => Nueva pagina  =>  
+A. => PARA DETERMINAR EL VALOR FOB, SE TOMA EL VALOR FCA DE LA FACTURA COMERCIAL  =>  PARA DETERMINAR EL FLETE, SE APLICA EL 25% DEL CERTIFICADO DE FLETE PARA DETERMINAR EL SEGURO, SE APLICA EL 2% DEL VALOR FOB EN CONFORMIDAD AL AR
+T. => 20 DEL RLGA  =>  PAGO A CREDITO A 180 DIAS DE LA FACTURA SE ADJUNTA RESOLUCION NR
+O. => AN/GRSZ/AVV/RESADM/409/2025 DE FECHA 24/03/2025, POR DECLARATORIA DE ABANDONO TACITO  =>  PEDIDO: OC 4521348666
+N. => Números y/o Códigos de Control  =>  
