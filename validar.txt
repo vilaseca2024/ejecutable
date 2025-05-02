@@ -1,113 +1,112 @@
+A0. => Embarque Codigo  =>  BR671602304
 A. => Identificación de la Declaración  =>  
-A1. => N de declaración  =>  DI-2025-711-2112975
-A2. => Fecha de aceptación  =>  24/04/2025 10:53
-A3. => N de referencia  =>  0899-25
-A4. => Aduana de despacho  =>  711 - AEROPUERTO VIRU VIRU
+A1. => N de declaración  =>  DI-2025-721-2074044
+A2. => Fecha de aceptación  =>  18/03/2025 13:22
+A3. => N de referencia  =>  0628-25
+A4. => Aduana de despacho  =>  721 - FRONTERA PUERTO SUAREZ
 A5. => Destino/Régimen aduanero  =>  40 - IMPORTACION PARA EL CONSUMO
-A6. => Modalidad del régimen  =>  4000 - GENERAL
-A7. => Modalidad de despacho  =>  01 - GENERAL
+A6. => Modalidad del régimen  =>  4003 - DESPACHO EN FRONTERA DS 2295
+A7. => Modalidad de despacho  =>  02 - ANTICIPADO
 A8. => Tratamiento especial  =>  TRATAMIENTO COMUN
-A9. => Plazo  =>  
-A10. => N documento asociado  =>  
-A10.1. => N Parte de Recepción  =>  PRM-2025-711-22134
+A9. => Plazo  =>  20
+A10. => N documento asociado  =>  DAM-2025-24575
+A10.1. => N Parte de Recepción  =>  PRA-2025-721-80884
 A11. => Forma de envío  =>  02 - ENVIO TOTAL
 A12. => Tipo de despacho  =>  02 - DESPACHO TOTAL
 A13. => Número carpeta  =>  
 B. => Operadores  =>  Datos Tipo de documento N de documento Nombre/Razón social Categoría *Domicilio, Ciudad, País, Teléfono, Fax, Correo Electrónico
 B1.TIPO => Tipo de Documento  =>  NIT
-B1.NUMERO => Nro. de documento  =>  1020229024
-B1.NOMBRE => Nombre/Razón social  =>  CERVECERIA BOLIVIANA NACIONAL
-B1.CATEGORIA => Categoría  =>  
-B1.DOMICILIO => Domicilio  =>  -CHUQUISACA, 121, CHALLAPAMPA, LA PAZ, LA PAZ, BOLIVIA, 2455455, adgarcia@cbn.com.bo
+B1.NUMERO => Nro. de documento  =>  1020415021
+B1.NOMBRE => Nombre/Razón social  =>  MINERA SAN CRISTOBAL
+B1.CATEGORIA => Categoría  =>  OEA
+B1.DOMICILIO => Domicilio  =>  TARIJA, 12, ZONA CENTRAL, POTOSÍ, POTOSI, BOLIVIA, 2153777, 2153777,
 B2.TIPO => Tipo de Documento  =>  NIT
 B2.NUMERO => Nro. de documento  =>  1000899025
 B2.NOMBRE => Nombre/Razón social  =>  VILASECA S.A. AGENCIA DESPACHANTE DE ADUANA
 B2.CATEGORIA => Categoría  =>  OEA
 B2.DOMICILIO => Domicilio  =>  MERCADO, 1328, CENTRAL, LA PAZ, LA PAZ, BOLIVIA, 2202077, 2201860,
 C. => Lugares  =>  
-C1. => País de exportación  =>  GT - GUATEMALA
-C2. => Lugar de embarque  =>  GTGUA - GUATEMALA CITY
-C3. => Fecha de embarque  =>  15/01/2025
-C4. => País de procedencia  =>  GT - GUATEMALA
-C5. => País de tránsito  =>  
-C6. => Aduana de ingreso  =>  711 - AEROPUERTO VIRU VIRU
-C7. => Departamento de destino  =>  SZ - SANTA CRUZ
-C8. => Localidad de destino  =>  BOSCS - SANTA CRUZ DE LA SIERRA
+C1. => País de exportación  =>  BR - BRASIL
+C2. => Lugar de embarque  =>  BRCPI - CAPIVARI
+C3. => Fecha de embarque  =>  17/03/2025
+C4. => País de procedencia  =>  BR - BRASIL
+C5. => País de tránsito  =>  BR - BRASIL
+C6. => Aduana de ingreso  =>  721 - FRONTERA PUERTO SUAREZ
+C7. => Departamento de destino  =>  PT - POTOSI
+C8. => Localidad de destino  =>  BOPOI - POTOSÍ
 D. => Transporte  =>  
-D1. => Modalidad de transporte hasta frontera  =>  5 - POSTAL O COURIER
-D2. => Modalidad de transporte desde frontera  =>  4 - TRANSPORTE AÉREO
+D1. => Modalidad de transporte hasta frontera  =>  3 - TRANSPORTE CARRETERO
+D2. => Modalidad de transporte desde frontera  =>  3 - TRANSPORTE CARRETERO
 D3. => Carga peligrosa  =>  NO
 F. => Totales para control de la Declaración  =>  
 F1. => Total N Facturas  =>  1
 F2. => Total N de Items  =>  1
-F3. => Total N de bultos  =>  1
-F4. => Total peso bruto (kg)  =>  1.8
-F5. => Total peso neto (kg)  =>  1,4
-F6. => Total valor FOB (USD)  =>  792,96
-F7. => Gastos Trans hasta el lugar de importación (USD)  =>  22.07
-F8. => Total costo del seguro (USD)  =>  15.8592
+F3. => Total N de bultos  =>  100
+F4. => Total peso bruto (kg)  =>  102500.0
+F5. => Total peso neto (kg)  =>  100000,0
+F6. => Total valor FOB (USD)  =>  263800,0
+F7. => Gastos Trans hasta el lugar de importación (USD)  =>  17220
+F8. => Total costo del seguro (USD)  =>  393.06
 F9. => Gastos de carga, descarga, manipuleo y otros gastos (USD)  =>  0
-F10. => Total valor CIF aduana (BOB)  =>  5783
+F10. => Total valor CIF aduana (BOB)  =>  1958635
 G. => Observaciones generales de la declaración  =>  Liquidación total de tributos, exoneraciones, suspensiones u otros cargos ( Expresado en bolivianos )
-G.GA => GA  =>  578
-G.IVA => IVA  =>  950
-G.TOTAL => Total tributos a pagar  =>  1528
+G.GA => GA  =>  0
+G.IVA => IVA  =>  292620
+G.TOTAL => Total tributos a pagar  =>  292620
 E. => Información y valores totales de la factura Factura 1 de 1  =>  
-E1. => Datos del Proveedor  =>  MANUEL SANMARTINA., RTA 5 KM 101, S/N, BUENOS AIRES, ARGENTINA, (54)2324647165, maria.molina@grupo- sanmartin.com
-A. => , RTA 5 KM 101, S/N, BUENOS AIRES, ARGENTINA, (54)2324647165, maria.molina@grupo-  =>  sanmartin.com
-E2. => País de adquisición  =>  GT - GUATEMALA
-E3. => N de la factura  =>  00006-00001059
-E4. => Fecha de la factura  =>  07/11/2024
+E1. => Datos del Proveedor  =>  MICROSAL INDUSTRIA E COMERCIO LTDA., RODOVIA SP 101 KM 43, S/N, CAPIVARI, BRASIL, (55)1934928008, alex@microsal.com.br
+A. => , RODOVIA SP 101 KM 43, S/N, CAPIVARI, BRASIL, (55)1934928008,  =>  alex@microsal.com.br
+E2. => País de adquisición  =>  BR - BRASIL
+E3. => N de la factura  =>  811588
+E4. => Fecha de la factura  =>  03/03/2025
 E5. => Condición de entrega (INCOTERMS)  =>  FCA - FRANCO TRANSPORTISTA - LIBRE
-E6. => Lugar de entrega (INCOTERMS)  =>  BUENOS AIRES
+E6. => Lugar de entrega (INCOTERMS)  =>  CAPIVARI
 E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
 E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
-E9. => Valor de transacción  =>  792.96
+E9. => Valor de transacción  =>  263800.0
 E10. => T/C moneda de transacción  =>  
 E11. => Destino de la mercancía  =>  01 - USO O CONSUMO PROPIO
 E12. => Factura sujeta a descuento  =>  NO
 E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
 E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
-E15. => Valor FOB total (USD)  =>  792.96
+E15. => Valor FOB total (USD)  =>  263800.0
 E16. => Tipo de cambio (USD-BOB)  =>  6.96
-E17. => Total valor FOB (BOB)  =>  5519
-E23. => Valor CIF aduana total (BOB)  =>  5783
+E17. => Total valor FOB (BOB)  =>  1836048
+E23. => Valor CIF aduana total (BOB)  =>  1958635
 E24. => Otras erogaciones (USD)  =>  0.0
 K. => Actuaciones  =>  Declarante Aduana Código de seguridad 
 H. => Identificación de la mercancía por ítem  =>  
 H1. => N ítem  =>  1
 H2. => Tratamiento especial  =>  
-H3. => Subpartida arancelaria  =>  8422900000
+H3. => Subpartida arancelaria  =>  2833250000
 H4. => Cod. Complementario  =>  
 H5. => Cod. Suplementario  =>  
-Arancel => Descripción arancelaria  =>  - Partes
-H6. => Unidad física  =>  UNIDAD (NÚMERO DE UNIDADES)
-H7. => Cantidad física  =>  1027.0
+H6. => Unidad física  =>  KILOGRAMO
+H7. => Cantidad física  =>  100000.0
 H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
 H8.1 => Nombre Mercancia  =>  COMUNES
-H8.2 => Especifique Nombre Mercancia  =>  PUNTERA CANASTO PORTABOTELLAS
-H8.3 => Marca comercial  =>  SANMARTIN
-H8.4 => Tipo  =>  -
+H8.2 => Especifique Nombre Mercancia  =>  SULFATO DE COBRE PENTAHIDRATADO
+H8.3 => Marca comercial  =>  MICROSAL
+H8.4 => Tipo  =>  POLVO, MICROCRISTAL (IN)
 H8.5 => Clase  =>  -
-H8.6 => Modelo  =>  24-426
-H8.7 => Cuantitativo 1  =>  POS. 0
-H8.8 => Composición  =>  -
-H8.9 => Forma de presentación  =>  1027 UNIDADES EN UNA CAJA DE CARTON
+H8.6 => Modelo  =>  7758-99-8
+H8.7 => Cuantitativo 1  =>  FE 229.46MG/KG,PB 20MG/KG, CD 0.5MG/KG, CR 2.14MG/KG,AS 0.10MG/KG, HG 0.05MG/KG
+H8.8 => Composición  =>  PUREZA 98.35%,COBRE 25.03%,COBRE PENTA 25%,SULFATO COBREPENTAHIDRATADO100%
+H8.9 => Forma de presentación  =>  100 SUPER SACOS DE 1000 KG
 H8.10 => Material  =>  -
-H8.11 => Uso  =>  OTRO
-H8.11. => 1 Especifique Uso  =>  REPUESTO PARA EQUIPO SANMARTIN
-H8.12 => Otras características  =>  OC 4521348666
+H8.11 => Uso  =>  MINERIA
+H8.12 => Otras características  =>  OI 24000466.P4, LOTE: 11/25, FE: 10/03/2025, FV: 10/03/2027
 H8.13 => Año modelo  =>  -
 H8.14 => Año fabricación  =>  -
-H9. => Unidad comercial  =>  NMB - UNIDAD (NÚMERO DE UNIDADES)
-H10. => Cantidad comercial  =>  1027.0
-H11. => Precio unitario (USD)  =>  0.48
-H12. => País de orígen  =>  AR - ARGENTINA
-H13. => Acuerdo comercial  =>  NA, NO APLICA
-H14. => Tipo de embalaje  =>  CT - CAJA DE CARTON
+H9. => Unidad comercial  =>  KGM - KILOGRAMO
+H10. => Cantidad comercial  =>  100000.0
+H11. => Precio unitario (USD)  =>  2.638
+H12. => País de orígen  =>  BR - BRASIL
+H13. => Acuerdo comercial  =>  ACE36, ACUERDO BOLIVIA - MERCOSUR
+H14. => Tipo de embalaje  =>  BG - BOLSA, SACO O EMPAQUE
 H15. => Marcas en bulto(s)  =>  
-H16. => Relación Ítem-N de bulto(s)  =>  1
-H17. => Peso Neto (kg)  =>  1.4
+H16. => Relación Ítem-N de bulto(s)  =>  100
+H17. => Peso Neto (kg)  =>  100000.0
 H18. => Estado de la mercancía  =>  NUEVA
 H19. => Resolución RITEX  =>  
 H20. => Código RITEX  =>  
@@ -116,27 +115,31 @@ H22. => Declaración precedente  =>
 H23. => Mod. régimen precedente  =>  
 H24. => Ítem precedente  =>  
 I. => Información y valores de transacción del ítem  =>  
-I1. => Valor de transacción  =>  492.96
-I2. => Valor FOB del ítem (USD)  =>  792.96
-I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  22.07
-I4. => Costo seguro ítem (USD)  =>  15.86
+I1. => Valor de transacción  =>  263800.0
+I2. => Valor FOB del ítem (USD)  =>  263800.0
+I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  17220
+I4. => Costo seguro ítem (USD)  =>  393.06
 I5. => Gastos portuarios (USD)  =>  0.0
 I6. => Otros Gastos (USD)  =>  0.0
-I7. => Valor CIF ítem aduana (USD)  =>  830.89
-I8. => Valor CIF ítem aduana (BOB)  =>  5783
+I7. => Valor CIF ítem aduana (USD)  =>  281413.06
+I8. => Valor CIF ítem aduana (BOB)  =>  1958635
 I9. => Otras erogaciones del ítem (USD)  =>  0.0
-J. => Información adicional del Ítem  =>  
-J.GA => GA  =>  578
-J.IVA => IVA  =>  950
+J. => Información adicional del Ítem  =>  OI 24000466.P4
+J.GA => GA  =>  0
+J.IVA => IVA  =>  292620
 L. => Documentos de la Declaración  =>  
-L1. => Documentos soporte  =>  N Tipo documento Número Emisor Fecha emisiónMonto Ítems asociados Estado doc. Ver 1FACTURA COMERCIAL 00006-00001059 MANUEL SANMARTIN
-A. => 07/11/2024 USD 792.96 1 ORIGINAL Ver  =>  2GUÍA COURIER 6484446651 DHL 23/04/2025  1 ORIGINAL Ver 3PARTE DE RECEPCIÓN DE MERCANCÍAS (PRM)PRM-2025-711-22134 ALMACENERA BOLIVIANA
-A. => 23/01/2025  1 ORIGINALVer  =>  4Certificado flete de transporte 6484446651 DHL EXPRESS 23/04/2025   ORIGINAL Ver 5OTRO AN/GRSZ/AVV/ RESADM/ 409/2025ADUANA NACIONAL 24/03/2025  1 FOTOCOPIA SIMPLEVer
+L1. => Documentos soporte  =>  N Tipo documento Número Emisor Fecha emisiónMonto Ítems asociados Estado doc. Ver 1CARTA DE PORTE INTERNACIONAL POR CARRETERA (CRT)BR671602304 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA17/03/2025  1 ORIGINALVer 2FACTURA COMERCIAL 811588 MICROSAL INDUSTRIA E COMERCIO LTD
+A. => 03/03/2025 USD 263800 1 ORIGINAL Ver  =>  3LISTA DE EMPAQUE 811588 MICROSAL INDUSTRIA E COMERCIO LTDA 03/03/2025  1 ORIGINAL Ver 4OTRO S/N MICROSAL 17/03/2025  1 FOTOCOPIA SIMPLEVer 5OTRO OI 24000466 MINERA SAN CRISTOBAL
+A. => 10/12/2024  1 FOTOCOPIA  =>  SIMPLEVer 6FACTURA DE TRANSPORTE 5005/2025 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA13/03/2025 USD 24600 1 COPIAVer 7POLIZA DE  SEGURO LPM0223885 (D2272/2025)SEGUROS Y REASEGUROS CREDINFORM INTERNATIONAL
+A. => 03/03/2025 USD 263800 1 ORIGINALVer  =>  8DECLARACION ANDINA DE VALOR (DAV) 2529109 MINERA SAN CRISTOBAL
+A. => 18/03/2025  1 ORIGINAL Ver  =>  9CERTIFICADO DE ORIGEN BR030A36250000140100 FAEMS 13/03/2025  1 ORIGINAL Ver 10Declaración de exportación del país de origen o procedencia de la mercancía25BR000472099-5 RECEITA FEDERAL 17/03/2025  1 FOTOCOPIA SIMPLEVer 11PARTE DE RECEPCIÓN DE MERCANCÍAS (PRM)PRA-2025-721-80884 ADUANA NACIONAL 21/03/2025  1 ORIGINALVer 12MANIFIESTO INTERNACIONAL DE CARGA / DECLARACION DE TRÁNSITO ADUANERO (MIC/DTA)MI-2025-721-149727 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA19/03/2025  1 ORIGINAL Ver 13MANIFIESTO INTERNACIONAL DE CARGA / DECLARACION DE TRÁNSITO ADUANERO (MIC/DTA)MI-2025-721-149695 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA19/03/2025  1 ORIGINAL Ver 14MANIFIESTO INTERNACIONAL DE CARGA / DECLARACION DE TRÁNSITO ADUANERO (MIC/DTA)MI-2025-721-149664 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA19/03/2025  1 ORIGINAL Ver 15MANIFIESTO INTERNACIONAL DE CARGA / DECLARACION DE TRÁNSITO ADUANERO (MIC/DTA)MI-2025-721-149579 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA19/03/2025  1 ORIGINAL Ver
 M. => Información adicional  =>  SEÑOR ADMINISTRADOR: INDICARLE QUE, EL IMPORTADOR SE SUJETA A LO DISPUESTO EN EL AR
 T. => 143 DE LA LGA N  =>  
 O. => 1990 DE 28/07/1990. EL  =>  DESPACHANTE Y AGENCIA DESPACHANTE DE ADUANAS INTERVINIENTES, NO ASUMEN LA OBLIGACION, NI RESPONSABILIDAD ALGUNA EN LA DETERMINACION DEL VALOR EN ADUANA, EN APLICACION DE LOS ARTICULOS 48,74 Y 183 DE LA LGA Y SU AR
 T. => 249 DEL RLG  =>  
-A. => PARA DETERMINAR EL VALOR FOB, SE TOMA EL VALOR FCA DE LA FACTURA COMERCIAL  =>  PARA DETERMINAR EL FLETE, SE APLICA EL 25% DEL CERTIFICADO DE FLETE PARA DETERMINAR EL SEGURO, SE APLICA EL 2% DEL VALOR FOB EN CONFORMIDAD AL AR
-T. => 20 DEL RLGA  =>  PAGO A CREDITO A 180 DIAS DE LA FACTURA SE ADJUNTA RESOLUCION NR
-O. => AN/GRSZ/AVV/RESADM/409/2025 DE FECHA 24/03/2025, POR DECLARATORIA DE ABANDONO TACITO  =>  PEDIDO: OC 4521348666
+A. => REALIZAMOS EL PRESENTE DESPACHO BAJO RÉGIMEN ANTICIPADO, SEGUN EL  =>  PARA DETERMINAR EL VALOR FOB SE TOMA EL VALOR FCA DE LA FACTURA COMERCIAL PARA DETERMINAR EL FLETE SE APLICA EL FLETE HASTA FRONTERA DE LA FACTURA DE TRANSPORTE PARA DETERMINAR EL SEGURO SE APLICA LA PRIMA DE LA POLIZA DE SEGURO SE APLICA EL ACUERDO COMERCIAL ACE36 DESGRAVANDO EL 100% DEL GA DE LOS ITEMS PAGO A CREDITO A
+S. => 1443 Y AR  =>  
+T. => 77 DE LA LEY 1990 Y ART  =>  
+S. => 121-B), 123 A 127 DEL REGLAMENTO A LA LEY GENERAL DE ADUANAS  =>  
+T. => 127 DEL RLGA, SE REGULARIZA A LOS 12 DIAS DESPUES DE ARRIBADO LA ULTIMA UNIDAD A FRONTERA  =>  
 N. => Números y/o Códigos de Control  =>  

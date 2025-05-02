@@ -1,0 +1,144 @@
+A0. => Embarque Codigo  =>  BR671602204
+A. => Identificación de la Declaración  =>  
+A1. => N de declaración  =>  DI-2025-721-2020017
+A2. => Fecha de aceptación  =>  21/01/2025 16:33
+A3. => N de referencia  =>  0224-25
+A4. => Aduana de despacho  =>  721 - FRONTERA PUERTO SUAREZ
+A5. => Destino/Régimen aduanero  =>  40 - IMPORTACION PARA EL CONSUMO
+A6. => Modalidad del régimen  =>  4000 - GENERAL
+A7. => Modalidad de despacho  =>  02 - ANTICIPADO
+A8. => Tratamiento especial  =>  TRATAMIENTO COMUN
+A9. => Plazo  =>  20
+A10. => N documento asociado  =>  DAM-2025-6192
+A10.1. => N Parte de Recepción  =>  PRM-2025-721-23032
+A11. => Forma de envío  =>  02 - ENVIO TOTAL
+A12. => Tipo de despacho  =>  02 - DESPACHO TOTAL
+A13. => Número carpeta  =>  
+B. => Operadores  =>  Datos Tipo de documento N de documento Nombre/Razón social Categoría *Domicilio, Ciudad, País, Teléfono, Fax, Correo Electrónico
+B1.TIPO => Tipo de Documento  =>  NIT
+B1.NUMERO => Nro. de documento  =>  1020415021
+B1.NOMBRE => Nombre/Razón social  =>  MINERA SAN CRISTOBAL
+B1.CATEGORIA => Categoría  =>  OEA
+B1.DOMICILIO => Domicilio  =>  TARIJA, 12, ZONA CENTRAL, POTOSÍ, POTOSI, BOLIVIA, 2153777, 2153777,
+B2.TIPO => Tipo de Documento  =>  NIT
+B2.NUMERO => Nro. de documento  =>  1000899025
+B2.NOMBRE => Nombre/Razón social  =>  VILASECA S.A. AGENCIA DESPACHANTE DE ADUANA
+B2.CATEGORIA => Categoría  =>  OEA
+B2.DOMICILIO => Domicilio  =>  MERCADO, 1328, CENTRAL, LA PAZ, LA PAZ, BOLIVIA, 2202077, 2201860,
+C. => Lugares  =>  
+C1. => País de exportación  =>  BR - BRASIL
+C2. => Lugar de embarque  =>  BRCGE - CONTAGEM
+C3. => Fecha de embarque  =>  20/01/2025
+C4. => País de procedencia  =>  BR - BRASIL
+C5. => País de tránsito  =>  BR - BRASIL
+C6. => Aduana de ingreso  =>  721 - FRONTERA PUERTO SUAREZ
+C7. => Departamento de destino  =>  PT - POTOSI
+C8. => Localidad de destino  =>  BOPOI - POTOSÍ
+D. => Transporte  =>  
+D1. => Modalidad de transporte hasta frontera  =>  3 - TRANSPORTE CARRETERO
+D2. => Modalidad de transporte desde frontera  =>  3 - TRANSPORTE CARRETERO
+D3. => Carga peligrosa  =>  NO
+F. => Totales para control de la Declaración  =>  
+F1. => Total N Facturas  =>  1
+F2. => Total N de Items  =>  1
+F3. => Total N de bultos  =>  25
+F4. => Total peso bruto (kg)  =>  25050.0
+F5. => Total peso neto (kg)  =>  25000,0
+F6. => Total valor FOB (USD)  =>  45742,97
+F7. => Gastos Trans hasta el lugar de importación (USD)  =>  4375
+F8. => Total costo del seguro (USD)  =>  67.8
+F9. => Gastos de carga, descarga, manipuleo y otros gastos (USD)  =>  0
+F10. => Total valor CIF aduana (BOB)  =>  349293
+G. => Observaciones generales de la declaración  =>  Liquidación total de tributos, exoneraciones, suspensiones u otros cargos ( Expresado en bolivianos )
+G.GA => GA  =>  0
+G.IVA => IVA  =>  52184
+G.TOTAL => Total tributos a pagar  =>  52184
+E. => Información y valores totales de la factura Factura 1 de 1  =>  
+E1. => Datos del Proveedor  =>  MAGOTTEAUX BRASIL LTDA, AVENIDA GENERAL DAVID SARNOFF, 1221, CIDADE INDUSTRIAL, CONTAGEM, BRASIL, (55)3121918901, irodriguez@magotteaux.com
+E2. => País de adquisición  =>  BR - BRASIL
+E3. => N de la factura  =>  90378557
+E4. => Fecha de la factura  =>  17/01/2025
+E5. => Condición de entrega (INCOTERMS)  =>  EXW - EN FABRICA (LUGAR CONVENIDO)
+E6. => Lugar de entrega (INCOTERMS)  =>  CONTAGEM
+E7. => Naturaleza de la transacción  =>  01 - COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD
+E8. => Moneda de transacción  =>  USD - DÓLAR ESTADOUNIDENSE
+E9. => Valor de transacción  =>  45500.0
+E10. => T/C moneda de transacción  =>  
+E11. => Destino de la mercancía  =>  01 - USO O CONSUMO PROPIO
+E12. => Factura sujeta a descuento  =>  NO
+E13. => Forma de pago  =>  3 - PAGO A CRÉDITO
+E14. => Medio de pago  =>  3 - ORDEN DE PAGO SIMPLE-TRANSFERENCIA
+E15. => Valor FOB total (USD)  =>  45742.97
+E16. => Tipo de cambio (USD-BOB)  =>  6.96
+E17. => Total valor FOB (BOB)  =>  318371
+E23. => Valor CIF aduana total (BOB)  =>  349293
+E24. => Otras erogaciones (USD)  =>  0.0
+K. => Actuaciones  =>  Declarante Aduana Código de seguridad 
+H. => Identificación de la mercancía por ítem  =>  
+H1. => N ítem  =>  1
+H2. => Tratamiento especial  =>  
+H3. => Subpartida arancelaria  =>  7325910000
+H4. => Cod. Complementario  =>  
+H5. => Cod. Suplementario  =>  
+Arancel => Descripción arancelaria  =>  - - Bolas y artículos similares para molinos
+H6. => Unidad física  =>  KILOGRAMO
+H7. => Cantidad física  =>  25000.0
+H8. => Descripción comercial de la mercancía  =>  DESCRIPCIONES MÍNIMAS DE LA MERCANCÍA: Comunes
+H8.1 => Nombre Mercancia  =>  COMUNES
+H8.2 => Especifique Nombre Mercancia  =>  BOLAS DE ALTO CROMO
+H8.3 => Marca comercial  =>  MAGOTTEAUX
+H8.4 => Tipo  =>  MARTENSÍTICA CON CARBUROS DE CROMO DURO
+H8.5 => Clase  =>  -
+H8.6 => Modelo  =>  5000185
+H8.7 => Cuantitativo 1  =>  DIAMETRO 1.5 PULGADAS
+H8.8 => Composición  =>  100% ACERO
+H8.9 => Forma de presentación  =>  EN MAXI SACO DE 1000 KG
+H8.10 => Material  =>  ACERO
+H8.11 => Uso  =>  OTRO
+H8.11. => 1 Especifique Uso  =>  PARA MOLINO DE BOLAS
+H8.12 => Otras características  =>  OI 23001741.P2
+H8.13 => Año modelo  =>  -
+H8.14 => Año fabricación  =>  -
+H9. => Unidad comercial  =>  TNE - TONELADA
+H10. => Cantidad comercial  =>  25.0
+H11. => Precio unitario (USD)  =>  1820.0
+H12. => País de orígen  =>  BR - BRASIL
+H13. => Acuerdo comercial  =>  ACE36, ACUERDO BOLIVIA - MERCOSUR
+H14. => Tipo de embalaje  =>  SA - SACO
+H15. => Marcas en bulto(s)  =>  
+H16. => Relación Ítem-N de bulto(s)  =>  25
+H17. => Peso Neto (kg)  =>  25000.0
+H18. => Estado de la mercancía  =>  NUEVA
+H19. => Resolución RITEX  =>  
+H20. => Código RITEX  =>  
+H21. => Cantidad RITEX  =>  
+H22. => Declaración precedente  =>  
+H23. => Mod. régimen precedente  =>  
+H24. => Ítem precedente  =>  
+I. => Información y valores de transacción del ítem  =>  
+I1. => Valor de transacción  =>  45500.0
+I2. => Valor FOB del ítem (USD)  =>  45742.97
+I3. => Gastos transp. ítem hasta la aduana de ingreso (USD)  =>  4375
+I4. => Costo seguro ítem (USD)  =>  67.8
+I5. => Gastos portuarios (USD)  =>  0.0
+I6. => Otros Gastos (USD)  =>  0.0
+I7. => Valor CIF ítem aduana (USD)  =>  50185.77
+I8. => Valor CIF ítem aduana (BOB)  =>  349293
+I9. => Otras erogaciones del ítem (USD)  =>  0.0
+J. => Información adicional del Ítem  =>  OI 23001741.P2
+J.GA => GA  =>  0
+J.IVA => IVA  =>  52184
+L. => Documentos de la Declaración  =>  
+L1. => Documentos soporte  =>  N Tipo documento Número Emisor Fecha emisiónMonto Ítems asociados Estado doc. Ver 1CARTA DE PORTE INTERNACIONAL POR CARRETERA (CRT)BR671602204 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA20/01/2025  1 ORIGINAL Ver 2FACTURA COMERCIAL 90378557 MAGOTTEAUX BRASIL LTDA 17/01/2025 USD 45500 1 ORIGINAL Ver 3LISTA DE EMPAQUE 1272968 MAGOTTEAUX BRASIL LTDA 15/01/2025  1 ORIGINAL Ver 4OTRO 32210-110 ARMINTER COMERCIO EXTERIOR LTDA 21/01/2025  1 FOTOCOPIA SIMPLEVer 5OTRO OI 23001741 MINERA SAN CRISTOBAL
+A. => 13/09/2024  1 FOTOCOPIA  =>  SIMPLEVer 6FACTURA DE TRANSPORTE 4672/2025 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA20/01/2025 USD 6250 1 COPIA Ver 7POLIZA DE  SEGURO LPM0218413 (D1735/2025)SEGUROS Y REASEGUROS CREDINFORM INTERNATIONAL
+A. => 17/01/2025 USD 45500 1 ORIGINAL Ver  =>  8DECLARACION ANDINA DE VALOR (DAV) 257303 MINERA SAN CRISTOBAL
+A. => 21/01/2025  1 ORIGINAL Ver  =>  9CERTIFICADO DE ORIGEN BR062A36250100000300 FECOMERCIO MG 17/01/2025  1 ORIGINAL Ver 10Declaración de exportación del país de origen o procedencia de la mercancía25BR000086310-4 RECEITA FEDERAL 17/01/2025  1 FOTOCOPIA SIMPLEVer 11PARTE DE RECEPCIÓN DE MERCANCÍAS (PRM)PRM-2025-721-23032 ADUANA NACIONAL 24/01/2025  1 ORIGINAL Ver 12MANIFIESTO INTERNACIONAL DE CARGA / DECLARACION DE TRÁNSITO ADUANERO (MIC/DTA)MI-2025-721-43979 SANTA CRUZ LOGISTICA INTERNACIONAL LTDA22/01/2025  1 ORIGINAL Ver
+M. => Información adicional  =>  SEÑOR ADMINISTRADOR: INDICARLE QUE, EL IMPORTADOR SE SUJETA A LO DISPUESTO EN EL AR
+T. => 143 DE LA LGA N  =>  
+O. => 1990 DE 28/07/1990. EL  =>  DESPACHANTE Y AGENCIA DESPACHANTE DE ADUANAS INTERVINIENTES, NO ASUMEN LA OBLIGACION, NI RESPONSABILIDAD ALGUNA EN LA DETERMINACION DEL VALOR EN ADUANA, EN APLICACION DE LOS ARTICULOS 48,74 Y 183 DE LA LGA Y SU AR
+T. => 249 DEL RLG  =>  
+A. => REALIZAMOS EL PRESENTE DESPACHO BAJO RÉGIMEN ANTICIPADO, SEGUN EL  =>  
+S. => 1443 Y AR  =>  
+T. => 77 DE LA LEY 1990 Y ART  =>  
+S. => 121-B), 123 A 127 DEL REGLAMENTO A LA LEY GENERAL DE ADUANAS  =>  
+T. => 127 DEL RLGA  =>  

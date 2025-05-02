@@ -422,7 +422,7 @@ def extraer_campos_pdf(ruta_pdf):
     en_h8 = False  
 
     for i, c in enumerate(campos):
-        if re.match(r'^H8\.\d+$', c['id']):
+        if re.match(r'^H8\.([0-9]|10)$', c['id']):
             if i == ultimo_h8_idx_real:
                 campos_corregidos.append(c)
                 ultimo_h8_idx_corregido = None
