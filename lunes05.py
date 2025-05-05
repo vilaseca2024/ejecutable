@@ -446,15 +446,32 @@ def extraer_campos_pdf(ruta_pdf):
                 
     campos = nuevos_campos
 
+     
     campos_corregidos = []
     i = 0
     ultimo_h8_idx_corregido = None
-    en_h8 = False
+    en_h87 = False  # Solo activado para H8.7 real
 
     while i < len(campos):
         campo_actual = campos[i]
 
+        if campo_actual['id'] == 'H8.' and campo_actual['titulo'].strip() == '7':
+            if i + 1 < len(campos) and campos[i + 1]['id'] == 'N.':
+                campo_siguiente = campos[i + 1]
+                nuevo_campo = {
+                    'id': 'H8.7',
+                    'titulo': 'N. de pliegues o capas',
+                    'valor': campo_siguiente['valor']
+                }
+                campos_corregidos.append(nuevo_campo)
+                ultimo_h8_idx_corregido = len(campos_corregidos) - 1
+                en_h87 = True
+                i += 2
+                continue
+
         if re.match(r'^H8\.([0-9]|10|11|12)$', campo_actual['id']):
+            en_h87 = campo_actual['id'] == 'H8.7'
+
             if i + 1 < len(campos) and campos[i + 1]['id'] == campo_actual['id']:
                 campo_duplicado_1 = campo_actual
                 campo_duplicado_2 = campos[i + 1]
@@ -467,20 +484,20 @@ def extraer_campos_pdf(ruta_pdf):
 
                 campos_corregidos.append(campo_duplicado_2)
                 ultimo_h8_idx_corregido = len(campos_corregidos) - 1
-                en_h8 = True
-                i += 2  
+                i += 2
             else:
                 campos_corregidos.append(campo_actual)
                 ultimo_h8_idx_corregido = len(campos_corregidos) - 1
-                en_h8 = True
                 i += 1
-        elif re.match(r'^[A-Z]\.$', campo_actual['id']) and en_h8 and ultimo_h8_idx_corregido is not None:
+
+        elif re.match(r'^[A-Z]\.$', campo_actual['id']) and en_h87 and ultimo_h8_idx_corregido is not None:
             texto = f"{campo_actual['id']} {campo_actual['titulo']} {campo_actual['valor']}".strip()
-            campos_corregidos[ultimo_h8_idx_corregido]['valor'] += "" + texto
+            campos_corregidos[ultimo_h8_idx_corregido]['valor'] += " " + texto
             i += 1
+
         else:
             campos_corregidos.append(campo_actual)
-            en_h8 = False
+            en_h87 = False
             i += 1
 
     campos = campos_corregidos

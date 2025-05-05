@@ -523,9 +523,7 @@ def process_all():
         if item_corr is not None:
             rows_data.append(item_corr)
 
-      
-        import re
-
+     
         def expandir_rango(cadena):
             partes = cadena.split('/')
             resultado = []
@@ -603,9 +601,8 @@ def process_all():
                 if coincidencias == 5:
                     matched_row = row
                     break
-                elif coincidencias == 3:
+                elif coincidencias == 4 or coincidencias == 3:
                     matched_row = row
-                    
                
 
             if matched_row is None:
@@ -616,7 +613,7 @@ def process_all():
                     continue
                 key = str(h).strip()
                 if key in {"CC0.", "CC1.", "CC2.", "CC3.", "CC4."}:
-                    continue  # 🔴 Saltar columnas clave, NO sobreescribirlas
+                    continue  
 
                 if col_idx in formula_cols:
                     try:
