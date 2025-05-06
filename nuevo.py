@@ -398,15 +398,12 @@ def extraer_campos_pdf(ruta_pdf):
             )
             if m:
                 codigo = m.group(1)
-                # insertamos en la nueva lista, en la posición 0
                 nuevos_campos.insert(0, {
                     'id': 'A0.',
                     'titulo': 'Embarque Codigo',
                     'valor': codigo
                 })
-                # si solo quieres la primera ocurrencia, puedes romper aquí:
-                # break
-    # ya no tocamos `campos` directamente:
+ 
     campos = nuevos_campos
 
     for i, c in enumerate(campos):
@@ -523,7 +520,7 @@ def process_all():
         if item_corr is not None:
             rows_data.append(item_corr)
 
-     
+      
         def expandir_rango(cadena):
             partes = cadena.split('/')
             resultado = []
